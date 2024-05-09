@@ -1,42 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Collider))]
-[RequireComponent (typeof(Rigidbody))]
-
+[RequireComponent(typeof(Rigidbody))]
 public class EyeInteractable : MonoBehaviour
 {
-
-    public bool IsHovered {  get; set; }
+    public bool IsHovered { get; set; }
 
     [SerializeField]
-    private UnityEvent<GameObject> OnObjectHover;
+    private UnityEvent OnObjectHover;
+
     [SerializeField]
     private Material OnHoverActiveMaterial;
+
     [SerializeField]
-    private Material OnActiveInactiveMaterial;
+    private Material OnHoverInactiveMaterial;
 
     private MeshRenderer meshRenderer;
 
+    private void Start()
+    {
+        meshRenderer = GetComponent<MeshRenderer>();
+    }
 
-
-    // Start is called before the first frame update
-    void Start() => meshRenderer = GetComponent<MeshRenderer>();
-    
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (IsHovered)
         {
+            OnObjectHover?.Invoke();
             meshRenderer.material = OnHoverActiveMaterial;
-            OnObjectHover?.Invoke(gameObject);
         }
         else
         {
-            meshRenderer.material = OnHoverActiveMaterial;
+            meshRenderer.material = OnHoverInactiveMaterial;
         }
     }
 }
