@@ -27,6 +27,7 @@ public class EyetrackingRay : MonoBehaviour
     {
         lineRenderer = GetComponent<LineRenderer>();
         SetupRay();
+        eyeInteractables = new List<EyeInteractable>();
     }
 
     void SetupRay()
@@ -52,17 +53,25 @@ public class EyetrackingRay : MonoBehaviour
             lineRenderer.startColor = rayColorHoverState;
             lineRenderer.endColor = rayColorHoverState;
             var eyeInteractable = hit.transform.GetComponent<EyeInteractable>();
-            eyeInteractables.Add(eyeInteractable);
-            eyeInteractable.IsHovered = true;
-            UnSelect(true);
-        }
+            if (eyeInteractable != null)
+            {
+                eyeInteractables.Add(eyeInteractable);
+                eyeInteractable.IsHovered = true;
+                UnSelect(true);
+
+            }
     }
+
+
 
     void UnSelect(bool clear = false)
     {
         foreach (var interactable in eyeInteractables)
         {
-            interactable.IsHovered = false;
+            if (interactable != null)
+            {
+                interactable.IsHovered = false;
+            }
         }
         if (clear)
         {
@@ -71,4 +80,5 @@ public class EyetrackingRay : MonoBehaviour
     }
 
 
+}
 }
