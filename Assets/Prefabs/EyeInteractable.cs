@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(AudioSource))]
+//[RequireComponent(typeof(AudioSource))]
 public class EyeInteractable : MonoBehaviour
 {
     public bool IsHovered { get; set; }
@@ -17,32 +17,47 @@ public class EyeInteractable : MonoBehaviour
     [SerializeField]
     private Material OnHoverInactiveMaterial;
 
-    [SerializeField]
-    private AudioClip hoverSound;
+   // [SerializeField]
+   // private AudioClip hoverSound;
 
     private MeshRenderer meshRenderer;
-    private AudioSource audioSource; 
+    // private AudioSource audioSource; 
+
+    [SerializeField]
+
+    private extOSC.Examples.SendNoteOnOver OscSend;
+
+    private bool Isenter;
+    
+
 
     private void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
-        audioSource = GetComponent<AudioSource>();
+      //  audioSource = GetComponent<AudioSource>();
+      
     }
 
     private void Update()
     {
-        if (IsHovered)
+        if (IsHovered && !Isenter)
         {
+            OscSend.PlayNote();
+            Isenter = true;
             if (meshRenderer.material != OnHoverActiveMaterial)
             {
-                audioSource.PlayOneShot(hoverSound);
+                //  audioSource.PlayOneShot(hoverSound);
+                
             }
             OnObjectHover?.Invoke();
             meshRenderer.material = OnHoverActiveMaterial;
         }
-        else
+        else if (!IsHovered && Isenter)
         {
             meshRenderer.material = OnHoverInactiveMaterial;
+            OscSend.StopNote();
+            Isenter = false;
         }
     }
+
 }

@@ -38,6 +38,18 @@ namespace extOSC.Examples
             Invoke("playNote1", 1.0f);
         }
 
+        public void PlayNote()
+        {
+            SendMidiNote(pitch, velocity);
+        }
+
+        public void StopNote()
+        {
+            SendMidiNote(pitch, 0);
+        }
+
+
+
         private void OnMouseEnter()
         {
             SendMidiNote(pitch, velocity);
