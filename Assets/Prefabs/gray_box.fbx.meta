@@ -3,7 +3,32 @@ guid: 8c6a326898bfdef49b97b87e28255cc5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 84165fe317aa0394c9d3cd1a3a10ed11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back wall
+    second: {fileID: 2100000, guid: d3beb4782520dde4299d3906f9c86922, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front
+    second: {fileID: 2100000, guid: d0fba3e6c29028a42ad779cbdbdcf4f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: guitar body
+    second: {fileID: 2100000, guid: e5a118f35faaa17408ddc5f81a998f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woddeen wall
+    second: {fileID: 2100000, guid: 4444a0e7eb2ca7041ba66d6e980e7841, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
