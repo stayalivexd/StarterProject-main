@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44202876, g: 0.45022064, b: 0.47379425, a: 1}
+  m_IndirectSpecularColor: {r: 0.44202837, g: 0.45022422, b: 0.4737963, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -144,6 +144,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &26048689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,6 +451,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &51814987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,6 +776,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 131290254}
 --- !u!1 &84930546 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1128170723775496236, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -870,6 +876,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &109104992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -958,6 +966,113 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
+--- !u!1 &131290251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131290252}
+  - component: {fileID: 131290255}
+  - component: {fileID: 131290254}
+  - component: {fileID: 131290253}
+  m_Layer: 0
+  m_Name: GuideSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &131290252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131290251}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000010307009, y: -0.000000078037516, z: 0.000000029802322, w: 1}
+  m_LocalPosition: {x: -0.394, y: 0.051, z: -0.932}
+  m_LocalScale: {x: 0.19999997, y: 0.2, z: 0.19999997}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &131290253
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131290251}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &131290254
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131290251}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &131290255
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131290251}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &133251893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1237893336017162492, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -1745,6 +1860,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &175793905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2054,6 +2171,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &210196932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2310,6 +2429,113 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 1587652682}
+--- !u!1 &211412411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211412412}
+  - component: {fileID: 211412415}
+  - component: {fileID: 211412414}
+  - component: {fileID: 211412413}
+  m_Layer: 0
+  m_Name: GuideSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &211412412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211412411}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000010307009, y: -0.000000078037516, z: 0.000000029802322, w: 1}
+  m_LocalPosition: {x: -0.45, y: -0.023, z: 0.911}
+  m_LocalScale: {x: 0.19999997, y: 0.2, z: 0.19999997}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &211412413
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211412411}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &211412414
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211412411}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &211412415
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211412411}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &218345109 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1724060792341563350, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -2403,6 +2629,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &223790734 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -2429,6 +2657,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &223790739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2656,6 +2886,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &253475645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2677,6 +2909,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &256977228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3329336453189920914, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -2909,6 +3143,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &276041375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3002,6 +3238,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &291651958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3090,6 +3328,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &305350586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3188,6 +3428,111 @@ Transform:
   m_Children: []
   m_Father: {fileID: 880156396}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &306805828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 306805829}
+  - component: {fileID: 306805832}
+  - component: {fileID: 306805831}
+  - component: {fileID: 306805830}
+  m_Layer: 0
+  m_Name: GuideSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &306805829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306805828}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000010319918, y: -0.00000007808922, z: 0.0016559066, w: 0.9999986}
+  m_LocalPosition: {x: 0.324, y: -0.051, z: 0.959}
+  m_LocalScale: {x: 0.19999997, y: 0.19999997, z: 0.19999997}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500864}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &306805830
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306805828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &306805831
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306805828}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &306805832
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306805828}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &308054023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 388017943894283486, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -3358,6 +3703,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &317253871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3624,6 +3971,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &365087489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5569043992460113364, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -3650,6 +3999,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &365087494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,9 +4080,8 @@ GameObject:
   - component: {fileID: 413240750}
   - component: {fileID: 413240749}
   - component: {fileID: 413240748}
-  - component: {fileID: 413240752}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: IdleSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3816,34 +4166,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413240747}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.204, y: 1.415, z: 3.373}
-  m_LocalScale: {x: 0.6890628, y: 0.6890628, z: 0.6890628}
+  m_LocalRotation: {x: 0.012829788, y: 0.7213929, z: -0.0118654035, w: 0.6923055}
+  m_LocalPosition: {x: 5.351125, y: 2.6477842, z: -0.031121254}
+  m_LocalScale: {x: 0.68906254, y: 0.6890628, z: 0.6890626}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1798500863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &413240752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413240747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
-  pitch: 71
-  velocity: 1
-  SendAddress: /hand0
-  ReceiveNote: /Note1
-  ReceiveVelocity: /Velocity1
-  Transmitter: {fileID: 762976103}
-  Receiver: {fileID: 762976104}
-  LastReceivedVelocity: 0
 --- !u!1 &420304032 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
@@ -4033,6 +4362,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 1246535967}
 --- !u!1 &425711572 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8780009712131532590, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -4131,6 +4462,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &449309605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4219,6 +4552,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &495606966 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4058879426038799192, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -4245,6 +4580,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &495606971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4338,6 +4675,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &498137940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4594,6 +4933,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 211412414}
 --- !u!1 &504563397 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8856916482769721425, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -4620,6 +4961,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &504563402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4780,6 +5123,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &509059750 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2841695311940077995, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -4873,6 +5218,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &510083153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2024283774511849237, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -4899,6 +5246,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &510083158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5478,6 +5827,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &575513633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5643,6 +5994,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &593819294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5736,6 +6089,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &594561472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5974,6 +6329,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &640498325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6062,6 +6419,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &688046053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8006923710459302309, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -6155,6 +6514,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &741852000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2800250516343163423, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
@@ -6344,6 +6705,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 1900716836}
 --- !u!1 &753345581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1558709471088140896, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -6437,6 +6800,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &762865330 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1558721567721526513, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -6463,6 +6828,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &762865335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7331,6 +7698,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &857452158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -7357,6 +7726,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &857452163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7450,6 +7821,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &864876121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7538,6 +7911,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &872568387 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4566169875137798768, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -7631,6 +8006,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &877293699 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6367892618325462179, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -7729,6 +8106,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &878049685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7966,6 +8345,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &910987891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8059,6 +8440,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &910992572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8152,6 +8535,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &914377893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8312,6 +8697,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &918429790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9841,6 +10228,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1001 &1010269915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10041,6 +10430,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1016526611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10134,6 +10525,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1023023769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10294,6 +10687,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1029507868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10387,6 +10782,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1047913598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10480,6 +10877,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1051450964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10568,6 +10967,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1057951180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7640558969779515294, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -10594,6 +10995,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1057951185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10893,6 +11296,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1089126312 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7034455982580203672, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -10986,6 +11391,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1099058441 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6487356692054705231, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -12241,6 +12648,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1150128590 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 401122468259050895, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -12267,6 +12676,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1150128595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12334,6 +12745,111 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7285641324128850035, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
+--- !u!1 &1151651319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1151651320}
+  - component: {fileID: 1151651323}
+  - component: {fileID: 1151651322}
+  - component: {fileID: 1151651321}
+  m_Layer: 0
+  m_Name: GuideSphere (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151651320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151651319}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000008199667, y: -0.000000056964094, z: 0.000000029802322, w: 1}
+  m_LocalPosition: {x: 0.395, y: 0.024, z: -0.925}
+  m_LocalScale: {x: 0.19999994, y: 0.19999999, z: 0.19999999}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1151651321
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151651319}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1151651322
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151651319}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1151651323
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151651319}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1156185793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3919796887962296046, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -12427,6 +12943,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1166941126 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1599826595754709761, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -12453,6 +12971,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1166941131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12834,6 +13354,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1224189473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12989,6 +13511,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1240996093 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -652209905907201759, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -13015,6 +13539,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1240996098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13082,6 +13608,111 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6055277006425145491, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
+--- !u!1 &1246535966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1246535970}
+  - component: {fileID: 1246535969}
+  - component: {fileID: 1246535967}
+  - component: {fileID: 1246535968}
+  m_Layer: 0
+  m_Name: GuideSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1246535967
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246535966}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &1246535968
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246535966}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1246535969
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246535966}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1246535970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246535966}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.929, y: -0.049, z: 0.391}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500862}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1248968273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13170,6 +13801,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1274849919 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6763858364670572316, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -13196,6 +13829,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1274849924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13351,6 +13986,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1283404938
 GameObject:
   m_ObjectHideFlags: 0
@@ -13392,6 +14029,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!65 &1283404940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13576,6 +14215,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1316361856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13669,6 +14310,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1329908467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13906,6 +14549,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1345098257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13999,6 +14644,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1345116052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14154,6 +14801,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1371755828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14242,6 +14891,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1376212368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8869669039281602302, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -14268,6 +14919,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1376212373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14361,6 +15014,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1379927194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14449,6 +15104,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1401008012 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7791944975921311039, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -14547,6 +15204,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1414370558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14640,6 +15299,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1418586187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14800,6 +15461,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1469519556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7100647795231537894, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -14898,6 +15561,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1476813189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14986,6 +15651,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1491189796 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4960584510277547667, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -15012,6 +15679,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1491189801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15105,6 +15774,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1491935282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15260,6 +15931,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1522720350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6014503084441653313, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -15286,6 +15959,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1522720355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15379,6 +16054,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1563380582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15472,6 +16149,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1581436940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15539,6 +16218,111 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6335965048631572536, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
+--- !u!1 &1587652679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1587652680}
+  - component: {fileID: 1587652683}
+  - component: {fileID: 1587652682}
+  - component: {fileID: 1587652681}
+  m_Layer: 0
+  m_Name: GuideSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1587652680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587652679}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000010307009, y: -0.000000078037516, z: 0.000000029802322, w: 1}
+  m_LocalPosition: {x: -0.932, y: 0.049, z: -0.423}
+  m_LocalScale: {x: 0.19999997, y: 0.2, z: 0.19999997}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500867}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1587652681
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587652679}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1587652682
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587652679}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1587652683
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587652679}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1611146826 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7975042476016782316, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -15565,6 +16349,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1611146831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15704,6 +16490,111 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5299334708804420200, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
+--- !u!1 &1616068073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1616068074}
+  - component: {fileID: 1616068077}
+  - component: {fileID: 1616068076}
+  - component: {fileID: 1616068075}
+  m_Layer: 0
+  m_Name: GuideSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1616068074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616068073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000060923234, y: -0.000000035890675, z: 0.000000029802322, w: 1}
+  m_LocalPosition: {x: 0.931, y: -0.017, z: -0.395}
+  m_LocalScale: {x: 0.19999997, y: 0.19999997, z: 0.19999997}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500870}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1616068075
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616068073}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1616068076
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616068073}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1616068077
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616068073}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1633448251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9186007496021145544, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -15802,6 +16693,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1637548355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15890,6 +16783,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1662892728 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7515429101286732190, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -15916,6 +16811,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1662892733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16009,6 +16906,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1690100513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16326,6 +17225,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 306805831}
 --- !u!114 &1701881542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16414,6 +17315,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1740477405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8520419181411329417, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -16507,6 +17410,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1740608954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3137722172632951806, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -16605,6 +17510,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1745716511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17019,7 +17926,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -516098083770646512, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 413240751}
+    - targetCorrespondingSourceObject: {fileID: -2577548232221058511, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1246535970}
+    - targetCorrespondingSourceObject: {fileID: -2484921068739079471, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1616068074}
+    - targetCorrespondingSourceObject: {fileID: 3316992658331686828, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1151651320}
+    - targetCorrespondingSourceObject: {fileID: 5666261585234168772, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 131290252}
+    - targetCorrespondingSourceObject: {fileID: 8670761335428686811, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1587652680}
+    - targetCorrespondingSourceObject: {fileID: 8946660040297601765, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1900716834}
+    - targetCorrespondingSourceObject: {fileID: 6732398567079961185, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 211412412}
+    - targetCorrespondingSourceObject: {fileID: 5993847947337725134, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 306805829}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       insertIndex: 1
@@ -17142,6 +18076,51 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1701686434}
   m_SourcePrefab: {fileID: 100100000, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+--- !u!4 &1798500862 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2577548232221058511, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500863 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5993847947337725134, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500865 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6732398567079961185, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8946660040297601765, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500867 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8670761335428686811, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500868 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5666261585234168772, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500869 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3316992658331686828, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798500870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2484921068739079471, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+  m_PrefabInstance: {fileID: 1798500861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1798791247 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6733177361254619370, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
@@ -17331,6 +18310,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 1151651322}
 --- !u!1 &1800511210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2519092360280523269, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -17563,6 +18544,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1821932256 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6938015543878660930, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -17661,6 +18644,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1825338458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17901,6 +18886,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1850971980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4252702714118357385, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -17994,6 +18981,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1862963759 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3653983715662582221, guid: aaeee8c9c656b8f47a06ed572fe75747, type: 3}
@@ -18087,6 +19076,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!4 &1869026467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2572659492117237581, guid: d947a72ae6e82364e8102d379675cb82, type: 3}
@@ -18118,6 +19109,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1877724888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18345,6 +19338,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1899483158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2596957926113402938, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -18371,6 +19366,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1899483163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18438,6 +19435,111 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6593217175389860584, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
+--- !u!1 &1900716833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1900716834}
+  - component: {fileID: 1900716837}
+  - component: {fileID: 1900716836}
+  - component: {fileID: 1900716835}
+  m_Layer: 0
+  m_Name: GuideSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1900716834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900716833}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000010307009, y: -0.000000078037516, z: 0.000000029802322, w: 1}
+  m_LocalPosition: {x: -0.938, y: 0.015, z: 0.415}
+  m_LocalScale: {x: 0.19999997, y: 0.2, z: 0.19999997}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1798500866}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1900716835
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900716833}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1900716836
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900716833}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1900716837
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900716833}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &1910434397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18459,6 +19561,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1917916510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 281855664364225751, guid: ddee535bb462be54985a8bdd1424b508, type: 3}
@@ -18485,6 +19589,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1917916515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18578,6 +19684,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1926748143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18733,6 +19841,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1953329171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9041267756353341082, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -18759,6 +19869,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1953329176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18919,6 +20031,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &1982086616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8019028671651874581, guid: 48cd8f96c444fba43bf89eacc268700d, type: 3}
@@ -18945,6 +20059,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &1982086621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19038,6 +20154,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &2002528292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19270,6 +20388,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1 &2030666378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
@@ -19459,6 +20579,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 762976104}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 413240749}
+  GuideObject: {fileID: 1616068076}
 --- !u!114 &2044476268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19480,6 +20602,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &2059437689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19568,6 +20692,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &2061136946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19589,6 +20715,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!1001 &2083419700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20607,6 +21735,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &2103360120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20700,6 +21830,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &2125731173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20866,6 +21998,8 @@ MonoBehaviour:
   Transmitter: {fileID: 762976103}
   Receiver: {fileID: 0}
   LastReceivedVelocity: 0
+  IdleObject: {fileID: 0}
+  GuideObject: {fileID: 0}
 --- !u!114 &2134772759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21102,4 +22236,3 @@ SceneRoots:
   - {fileID: 2126034466}
   - {fileID: 512698953}
   - {fileID: 344201904}
-  - {fileID: 413240751}
