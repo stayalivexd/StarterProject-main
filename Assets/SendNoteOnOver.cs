@@ -24,6 +24,7 @@ namespace extOSC.Examples
 
         public int LastReceivedVelocity = 0;
         public Renderer IdleObject;
+        public Renderer GuideObject;
 
         protected virtual void Start()
         {
@@ -62,7 +63,7 @@ namespace extOSC.Examples
             if (!OnMouseEnterActive) return;
 
             SendMidiNote(pitch, 0);
-            changeColorTo(Color.blue);
+            changeColorTo(Color.gray);
 
         }
 
@@ -94,6 +95,11 @@ namespace extOSC.Examples
             IdleObject.material.SetColor("_Color", toColor);
         }
 
+        private void ChangeGuideObjectColorTo(Color toColor)
+        {
+            GuideObject.material.SetColor("_Color", toColor);
+        }
+
         //Receiving messages code
         //Velocity first, then note
 
@@ -108,13 +114,15 @@ namespace extOSC.Examples
                 {
                     if (LastReceivedVelocity > 0)
                     {
-                        changeColorTo(Color.green);
-                        ChangeIdleObjectColorTo(Color.gray);
+                        ChangeGuideObjectColorTo(Color.green);
+                        //changeColorTo(Color.green);
+                        //ChangeIdleObjectColorTo(Color.gray);
                     }
                     else
                     {
-                        changeColorTo(Color.gray);
-                        ChangeIdleObjectColorTo(Color.green);
+                        //changeColorTo(Color.gray);
+                        ChangeGuideObjectColorTo(Color.gray);
+                        //ChangeIdleObjectColorTo(Color.yellow);
                     }
                 }
             }
