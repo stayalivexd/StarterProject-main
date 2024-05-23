@@ -22,7 +22,8 @@ namespace extOSC.Examples
         public OSCTransmitter Transmitter;
         public OSCReceiver Receiver;
 
-        public int LastReceivedVelocity = 0; 
+        public int LastReceivedVelocity = 0;
+        public Renderer IdleObject;
 
         protected virtual void Start()
         {
@@ -88,6 +89,11 @@ namespace extOSC.Examples
             cubeRenderer.material.SetColor("_Color", toColor);
         }
 
+        private void ChangeIdleObjectColorTo (Color toColor)
+        {
+            IdleObject.material.SetColor("_Color", toColor);
+        }
+
         //Receiving messages code
         //Velocity first, then note
 
@@ -103,10 +109,12 @@ namespace extOSC.Examples
                     if (LastReceivedVelocity > 0)
                     {
                         changeColorTo(Color.green);
+                        ChangeIdleObjectColorTo(Color.gray);
                     }
                     else
                     {
                         changeColorTo(Color.gray);
+                        ChangeIdleObjectColorTo(Color.green);
                     }
                 }
             }
