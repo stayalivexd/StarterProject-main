@@ -6,36 +6,28 @@ namespace extOSC.Examples
 {
     public class SendNoteOnOver : MonoBehaviour
     {
-        #region Public Vars
 
-        public string Address = "/hand0";
+        public bool OnMouseEnterActive = false;
+
         public int pitch;
         public int velocity;
 
+        public string SendAddress = "/hand0";
+       
+
+        public string ReceiveNote = "/Note1";
+        public string ReceiveVelocity = "/Velocity1";
+
         [Header("OSC Settings")]
         public OSCTransmitter Transmitter;
+        public OSCReceiver Receiver;
 
-        #endregion
-
-        #region Unity Methods
+        public int LastReceivedVelocity = 0; 
 
         protected virtual void Start()
         {
-            //Invoke("playNote1",1.0f);
-        }
-
-        void playNote1()
-        {
-            OSCMessage message = CreateLeapNote(80, 50);
-            Transmitter.Send(message);
-            Invoke("playNote2", 1.0f);
-        }
-
-        void playNote2()
-        {
-            OSCMessage message = CreateLeapNote(90, 30);
-            Transmitter.Send(message);
-            Invoke("playNote1", 1.0f);
+            Receiver.Bind(ReceiveNote, ReceivedNote);
+            Receiver.Bind(ReceiveVelocity, ReceivedVelocity);
         }
 
         public void PlayNote()
@@ -49,45 +41,33 @@ namespace extOSC.Examples
         }
 
 
-
+        /// <summary>
+        /// Helper function to simulate eyetracking interactiuon in editor
+        /// </summary>
         private void OnMouseEnter()
         {
+            if (!OnMouseEnterActive) return;
+
             SendMidiNote(pitch, velocity);
-
-            // Get the Renderer component from the new cube
-            var cubeRenderer = GetComponent<Renderer>();
-
-            // Call SetColor using the shader property name "_Color" and setting the color to red
-            cubeRenderer.material.SetColor("_Color", Color.red);
+            changeColorTo(Color.red);
 
         }
 
+        /// <summary>
+        /// Helper function to simulate eyetracking interactiuon in editor
+        /// </summary>
         private void OnMouseExit()
         {
+            if (!OnMouseEnterActive) return;
+
             SendMidiNote(pitch, 0);
+            changeColorTo(Color.blue);
 
-            // Get the Renderer component from the new cube
-            var cubeRenderer = GetComponent<Renderer>();
-
-            // Call SetColor using the shader property name "_Color" and setting the color to red
-            cubeRenderer.material.SetColor("_Color", Color.blue);
-        }
-
-        private OSCMessage CreateLeapNote(int pitch, int velocity)
-        {
-            var message = new OSCMessage(Address);
-            message.AddValue(OSCValue.Int(0)); //not used
-            message.AddValue(OSCValue.Int(0)); //not used
-            message.AddValue(OSCValue.Int(0)); //not used
-            message.AddValue(OSCValue.Int(velocity));
-            message.AddValue(OSCValue.Int(pitch));
-
-            return message;
         }
 
         private OSCMessage CreateMidiNote(int pitch, int velocity)
         {
-            var message = new OSCMessage(Address);
+            var message = new OSCMessage(SendAddress);
             message.AddValue(OSCValue.Int(pitch));
             message.AddValue(OSCValue.Int(velocity));
             return message;
@@ -99,6 +79,48 @@ namespace extOSC.Examples
             Transmitter.Send(message);
         }
 
-        #endregion
+        private void changeColorTo (Color toColor)
+        {
+            // Get the Renderer component from the new cube
+            var cubeRenderer = GetComponent<Renderer>();
+
+            // Call SetColor using the shader property name "_Color" and setting the color to red
+            cubeRenderer.material.SetColor("_Color", toColor);
+        }
+
+        //Receiving messages code
+        //Velocity first, then note
+
+        private void ReceivedNote(OSCMessage message)
+        {
+            //Debug.LogFormat("Received: {0}", message);
+
+            int NoteValue;
+            if (message.ToInt(out NoteValue))
+            {
+                if (NoteValue == pitch)
+                {
+                    if (LastReceivedVelocity > 0)
+                    {
+                        changeColorTo(Color.green);
+                    }
+                    else
+                    {
+                        changeColorTo(Color.gray);
+                    }
+                }
+            }
+        }
+
+        private void ReceivedVelocity(OSCMessage message)
+        {
+            //Debug.LogFormat("Received: {0}", message);
+
+            int VelocityValue;
+            if (message.ToInt(out VelocityValue))
+            {
+                LastReceivedVelocity = VelocityValue;
+            }
+        }
     }
 }
