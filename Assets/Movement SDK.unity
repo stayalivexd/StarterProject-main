@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 220c53501a6feeb44842c61d7364609c, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44202837, g: 0.45022422, b: 0.4737963, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -419,6 +419,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 38532097d9bee7548a61c5c77ec4265a, type: 3}
       propertyPath: m_Name
       value: guitar rack graybox
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 38532097d9bee7548a61c5c77ec4265a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1828,6 +1832,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dfa05e1506f7e7d4f9322cce90b52591, type: 3}
       propertyPath: m_Name
       value: Mesh_Woden Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfa05e1506f7e7d4f9322cce90b52591, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3790,7 +3798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &344201901
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5383,6 +5391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesh_Woden Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfa05e1506f7e7d4f9322cce90b52591, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5455,6 +5467,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dfa05e1506f7e7d4f9322cce90b52591, type: 3}
       propertyPath: m_Name
       value: Mesh_Woden Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfa05e1506f7e7d4f9322cce90b52591, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6292,6 +6308,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6f30636f6873ab3459409cd4e781d466, type: 3}
       propertyPath: m_Name
       value: Electric_Guitar_Early
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6f30636f6873ab3459409cd4e781d466, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10239,6 +10259,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4919022601411988887, guid: fd1b0496899d24c4a821a502aeb12dce, type: 3}
+      propertyPath: _trackingOriginType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4919022601411988887, guid: fd1b0496899d24c4a821a502aeb12dce, type: 3}
+      propertyPath: isInsightPassthroughEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4919022601411988887, guid: fd1b0496899d24c4a821a502aeb12dce, type: 3}
       propertyPath: requestEyeTrackingPermissionOnStartup
       value: 1
       objectReference: {fileID: 0}
@@ -10330,7 +10358,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4919022601422863633, guid: fd1b0496899d24c4a821a502aeb12dce, type: 3}
       insertIndex: -1
       addedObject: {fileID: 306349040}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4919022601422764147, guid: fd1b0496899d24c4a821a502aeb12dce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2051542884}
   m_SourcePrefab: {fileID: 100100000, guid: fd1b0496899d24c4a821a502aeb12dce, type: 3}
 --- !u!1 &1015037986 stripped
 GameObject:
@@ -17843,6 +17874,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 2.002
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5477749408508380018, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.41
@@ -20604,6 +20639,74 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 0}
   GuideObject: {fileID: 0}
+--- !u!1 &2051542881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4919022601422764147, guid: fd1b0496899d24c4a821a502aeb12dce, type: 3}
+  m_PrefabInstance: {fileID: 1010269915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2051542884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051542881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555725d48e9051a4bb6b8d45178c2fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectionSurfaceType: 0
+  overlayType: 1
+  compositionDepth: 1
+  hidden: 0
+  overridePerLayerColorScaleAndOffset: 0
+  colorScale: {x: 1, y: 1, z: 1, w: 1}
+  colorOffset: {x: 0, y: 0, z: 0, w: 0}
+  colorMapEditorType_: 0
+  colorMapEditorGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  colorMapEditorContrast: 0
+  colorMapEditorBrightness: 0
+  colorMapEditorPosterize: 0
+  colorMapEditorSaturation: 0
+  _colorLutSourceTexture: {fileID: 0}
+  _colorLutTargetTexture: {fileID: 0}
+  _lutWeight: 1
+  _flipLutY: 1
+  serializedSurfaceGeometry: []
+  textureOpacity_: 1
+  edgeRenderingEnabled_: 0
+  edgeColor_: {r: 1, g: 1, b: 1, a: 1}
+  colorMapType: 0
 --- !u!114 &2059437689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21966,6 +22069,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dfa05e1506f7e7d4f9322cce90b52591, type: 3}
       propertyPath: m_Name
       value: Mesh_Woden Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dfa05e1506f7e7d4f9322cce90b52591, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
