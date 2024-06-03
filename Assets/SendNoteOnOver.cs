@@ -17,6 +17,7 @@ namespace extOSC.Examples
 
         public string ReceiveNote = "/Note1";
         public string ReceiveVelocity = "/Velocity1";
+        public GuideBall GuideBall;
 
         [Header("OSC Settings")]
         public OSCTransmitter Transmitter;
@@ -117,6 +118,8 @@ namespace extOSC.Examples
                         ChangeGuideObjectColorTo(Color.green);
                         //changeColorTo(Color.green);
                         //ChangeIdleObjectColorTo(Color.gray);
+                        // Move the guiding ball to the position corresponding to the note
+                        GuideBall.MoveToPosition(NoteValue);
                     }
                     else
                     {
