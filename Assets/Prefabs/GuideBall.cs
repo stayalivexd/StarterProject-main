@@ -25,6 +25,7 @@ public class GuideBall : MonoBehaviour
         if (index >= 0 && index < positions.Length)
         {
             targetPosition = positions[index].position;
+            Debug.Log("Moving to position: " + targetPosition);
         }
     }
 }

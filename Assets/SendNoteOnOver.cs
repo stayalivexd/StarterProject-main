@@ -119,7 +119,8 @@ namespace extOSC.Examples
                         //changeColorTo(Color.green);
                         //ChangeIdleObjectColorTo(Color.gray);
                         // Move the guiding ball to the position corresponding to the note
-                        GuideBall.MoveToPosition(NoteValue);
+                        GuideBall.MoveToPosition(NoteValue); // Lauri Code
+                        Debug.Log("Received note value: " + NoteValue); // Lauri Code
                     }
                     else
                     {
