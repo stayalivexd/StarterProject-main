@@ -1,134 +1,14 @@
 <root>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:07]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAAA=</packet>
+  <message info="Receiver: 7001. From: 127.0.0.1:64310" type="Received" timestamp="[12:11:45]">
+    <packet>L05vdGUxAAAsaQAAAAAASA==</packet>
   </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:07]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAGQ=</packet>
+  <message info="Receiver: 7001. From: 127.0.0.1:64310" type="Received" timestamp="[12:11:45]">
+    <packet>L1ZlbG9jaXR5MQAALGkAAAAAAAA=</packet>
   </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:07]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
+  <message info="Receiver: 7001. From: 127.0.0.1:64310" type="Received" timestamp="[12:11:43]">
+    <packet>L05vdGUxAAAsaQAAAAAASA==</packet>
   </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:06]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:06]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:06]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:06]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:05]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:05]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:05]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:05]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:05]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:05]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:04]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:04]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:04]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:04]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:21:03]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:50]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:50]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:50]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:49]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:48]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:47]">
-    <packet>L2hhbmQwAAAsaWkAAAAATAAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:47]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:47]">
-    <packet>L2hhbmQwAAAsaWkAAAAASgAAAGQ=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:47]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAAA=</packet>
-  </message>
-  <message info="Transmitter: 192.168.178.11:7000" type="Transmitted" timestamp="[14:17:47]">
-    <packet>L2hhbmQwAAAsaWkAAAAASAAAAGQ=</packet>
+  <message info="Receiver: 7001. From: 127.0.0.1:64310" type="Received" timestamp="[12:11:43]">
+    <packet>L1ZlbG9jaXR5MQAALGkAAAAAAGQ=</packet>
   </message>
 </root>
