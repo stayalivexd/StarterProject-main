@@ -104,12 +104,6 @@ namespace extOSC.Examples
         //Receiving messages code
         //Velocity first, then note
 
-        private Dictionary<int, int> pitchToIndexMap = new Dictionary<int, int>()
-{
-    {72, 0}, // Map pitch 72 to index 0
-    {76, 1}  // Map pitch 76 to index 1
-};
-
         private void ReceivedNote(OSCMessage message)
         {
             //Debug.LogFormat("Received: {0}", message);
@@ -117,16 +111,15 @@ namespace extOSC.Examples
             int NoteValue;
             if (message.ToInt(out NoteValue))
             {
-                if (pitchToIndexMap.ContainsKey(NoteValue))
+                if (NoteValue == pitch)
                 {
-                    int index = pitchToIndexMap[NoteValue];
                     if (LastReceivedVelocity > 0)
                     {
                         ChangeGuideObjectColorTo(Color.green);
                         //changeColorTo(Color.green);
                         //ChangeIdleObjectColorTo(Color.gray);
                         // Move the guiding ball to the position corresponding to the note
-                        GuideBall.MoveToPosition(index); // Modified code
+                        GuideBall.MoveToPosition(NoteValue); // Lauri Code
                         Debug.Log("Received note value: " + NoteValue); // Lauri Code
                     }
                     else
