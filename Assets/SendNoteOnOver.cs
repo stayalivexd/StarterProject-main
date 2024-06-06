@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
+using TMPro;
 
 namespace extOSC.Examples
 {
@@ -10,14 +12,16 @@ namespace extOSC.Examples
         public bool OnMouseEnterActive = false;
 
         public int pitch;
+        public string NoteName;
         public int velocity;
-
+        public TMPro.TextMeshProUGUI NoteNameMesh;
+        public GameObject bigCube;
         public string SendAddress = "/hand0";
        
 
         public string ReceiveNote = "/Note1";
         public string ReceiveVelocity = "/Velocity1";
-        public GuideBall GuideBall;
+        //public GuideBall GuideBall;
 
         [Header("OSC Settings")]
         public OSCTransmitter Transmitter;
@@ -26,11 +30,79 @@ namespace extOSC.Examples
         public int LastReceivedVelocity = 0;
         public Renderer IdleObject;
         public Renderer GuideObject;
+        public VideoClip videoClip;
+        public VideoPlayer videoPlayer;
+        public Renderer targetRenderer;
+
+        struct NoteNrName
+        {
+            public int NoteNumber;
+            public string NoteName;
+
+            public NoteNrName(int noteNr, string noteName)
+            {
+                this.NoteNumber = noteNr;
+                this.NoteName = noteName;
+            }
+        }
+
+        List<NoteNrName> noteNameLookup = new List<NoteNrName>();
 
         protected virtual void Start()
         {
             Receiver.Bind(ReceiveNote, ReceivedNote);
             Receiver.Bind(ReceiveVelocity, ReceivedVelocity);
+            FillNoteLookup();
+            SetNoteName();
+        }
+
+        private void FillNoteLookup()
+        {
+            //fill lookup table with midi notes
+
+            noteNameLookup.Add(new NoteNrName(60, "C3"));
+            noteNameLookup.Add(new NoteNrName(61, "C#3"));
+            noteNameLookup.Add(new NoteNrName(62, "D3"));
+            noteNameLookup.Add(new NoteNrName(63, "D#3"));
+            noteNameLookup.Add(new NoteNrName(64, "E3"));
+            noteNameLookup.Add(new NoteNrName(65, "F3"));
+            noteNameLookup.Add(new NoteNrName(66, "F#3"));
+            noteNameLookup.Add(new NoteNrName(67, "G3"));
+            noteNameLookup.Add(new NoteNrName(68, "G#3"));
+            noteNameLookup.Add(new NoteNrName(69, "A3"));
+            noteNameLookup.Add(new NoteNrName(70, "A#3"));
+            noteNameLookup.Add(new NoteNrName(71, "B3"));
+            noteNameLookup.Add(new NoteNrName(72, "C4"));
+            noteNameLookup.Add(new NoteNrName(73, "C#4"));
+            noteNameLookup.Add(new NoteNrName(74, "D4"));
+            noteNameLookup.Add(new NoteNrName(75, "D#4"));
+            noteNameLookup.Add(new NoteNrName(76, "E4"));
+            noteNameLookup.Add(new NoteNrName(77, "F4"));
+            noteNameLookup.Add(new NoteNrName(78, "F#4"));
+            noteNameLookup.Add(new NoteNrName(79, "G4"));
+            noteNameLookup.Add(new NoteNrName(80, "G#4"));
+            noteNameLookup.Add(new NoteNrName(81, "A4"));
+            noteNameLookup.Add(new NoteNrName(82, "A#4"));
+            noteNameLookup.Add(new NoteNrName(83, "B4"));
+            noteNameLookup.Add(new NoteNrName(84, "C5"));
+        }
+
+        private void SetNoteName()
+        {
+            foreach (NoteNrName note in noteNameLookup)
+            {
+                if (note.NoteNumber == pitch)
+                {
+                    NoteName = note.NoteName;
+                    NoteNameMesh.text = note.NoteName;
+                }
+            }
+        }
+
+        private void OnValidate()
+        {
+            FillNoteLookup();
+            SetNoteName();
         }
 
         public void PlayNote()
@@ -53,6 +125,7 @@ namespace extOSC.Examples
 
             SendMidiNote(pitch, velocity);
             changeColorTo(Color.red);
+            videoPlayer.renderMode = VideoRenderMode.MaterialOverride;
 
         }
 
@@ -64,7 +137,7 @@ namespace extOSC.Examples
             if (!OnMouseEnterActive) return;
 
             SendMidiNote(pitch, 0);
-            changeColorTo(Color.gray);
+            changeColorTo(Color.white);
 
         }
 
@@ -86,9 +159,10 @@ namespace extOSC.Examples
         {
             // Get the Renderer component from the new cube
             var cubeRenderer = GetComponent<Renderer>();
-
+            var bigCubeRenderer = bigCube.GetComponent<Renderer>();
             // Call SetColor using the shader property name "_Color" and setting the color to red
             cubeRenderer.material.SetColor("_Color", toColor);
+            bigCubeRenderer.material.SetColor("_Color", toColor);
         }
 
         private void ChangeIdleObjectColorTo (Color toColor)
@@ -100,6 +174,12 @@ namespace extOSC.Examples
         {
             GuideObject.material.SetColor("_Color", toColor);
         }
+        private void ChangeMainCubeColor(Color toColor)
+
+        {
+            targetRenderer.material.SetColor("_Color", toColor);
+        }
+
 
         //Receiving messages code
         //Velocity first, then note
@@ -118,14 +198,17 @@ namespace extOSC.Examples
                         ChangeGuideObjectColorTo(Color.green);
                         //changeColorTo(Color.green);
                         //ChangeIdleObjectColorTo(Color.gray);
+                        videoPlayer = bigCube.GetComponent<VideoPlayer>();
+                        videoPlayer.Play();
                         // Move the guiding ball to the position corresponding to the note
-                        GuideBall.MoveToPosition(NoteValue); // Lauri Code
+                        //GuideBall.MoveToPosition(NoteValue); // Lauri Code
                         Debug.Log("Received note value: " + NoteValue); // Lauri Code
                     }
                     else
                     {
                         //changeColorTo(Color.gray);
-                        ChangeGuideObjectColorTo(Color.gray);
+                        videoPlayer.Stop();
+                        ChangeGuideObjectColorTo(Color.white);
                         //ChangeIdleObjectColorTo(Color.yellow);
                     }
                 }
