@@ -58,13 +58,13 @@ namespace extOSC.Examples
             if (!OnMouseEnterActive) return;
 
             SendMidiNote(pitch, velocity);
-            //changeColorTo(Color.red);
+            changeColorTo(Color.red);
             //videoPlayer = bigCube.AddComponent<VideoPlayer>();
 
             videoPlayer.renderMode = VideoRenderMode.MaterialOverride;
 
 
-            videoPlayer.Play();
+            //videoPlayer.Play();
 
         }
 
@@ -76,7 +76,7 @@ namespace extOSC.Examples
             if (!OnMouseEnterActive) return;
 
             SendMidiNote(pitch, 0);
-            changeColorTo(Color.gray);
+            changeColorTo(Color.white);
 
         }
 
