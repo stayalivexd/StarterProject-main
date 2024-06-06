@@ -806,6 +806,10 @@ PrefabInstance:
       value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
+      propertyPath: NoteName
+      value: C4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: Receiver
       value: 
       objectReference: {fileID: 1734919691}

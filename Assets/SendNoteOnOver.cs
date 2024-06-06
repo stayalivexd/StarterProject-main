@@ -17,7 +17,7 @@ namespace extOSC.Examples
         public TMPro.TextMeshProUGUI NoteNameMesh;
         public GameObject bigCube;
         public string SendAddress = "/hand0";
-       
+
 
         public string ReceiveNote = "/Note1";
         public string ReceiveVelocity = "/Velocity1";
@@ -34,14 +34,18 @@ namespace extOSC.Examples
         public VideoPlayer videoPlayer;
         public Renderer targetRenderer;
 
+        //helper vars for setting note nr and name
+        private int lastPitch;
+        private string lastNoteName;
+
         struct NoteNrName
         {
-            public int NoteNumber;
+            public int pitch;
             public string NoteName;
 
             public NoteNrName(int noteNr, string noteName)
             {
-                this.NoteNumber = noteNr;
+                this.pitch = noteNr;
                 this.NoteName = noteName;
             }
         }
@@ -53,7 +57,9 @@ namespace extOSC.Examples
             Receiver.Bind(ReceiveNote, ReceivedNote);
             Receiver.Bind(ReceiveVelocity, ReceivedVelocity);
             FillNoteLookup();
-            SetNoteName();
+            lastNoteName = NoteName;
+            lastPitch = pitch;
+            SetNoteNameFromPitch();
         }
 
         private void FillNoteLookup()
@@ -87,11 +93,11 @@ namespace extOSC.Examples
             noteNameLookup.Add(new NoteNrName(84, "C5"));
         }
 
-        private void SetNoteName()
+        private void SetNoteNameFromPitch()
         {
             foreach (NoteNrName note in noteNameLookup)
             {
-                if (note.NoteNumber == pitch)
+                if (note.pitch == pitch)
                 {
                     NoteName = note.NoteName;
                     NoteNameMesh.text = note.NoteName;
@@ -99,10 +105,39 @@ namespace extOSC.Examples
             }
         }
 
+        private void SetNotePitchFromName()
+        {
+            foreach (NoteNrName note in noteNameLookup)
+            {
+                //Debug.Log("Pitch=" + note.pitch + " name=" + note.NoteName);
+                if (note.NoteName == NoteName)
+                {
+                    pitch = note.pitch;
+                }
+            }
+        }
+
         private void OnValidate()
         {
-            FillNoteLookup();
-            SetNoteName();
+            //FillNoteLookup();
+            //Debug.Log("NoteName=" + NoteName + " lastName=" + lastNoteName);
+            //Debug.Log("NoteNr=" + pitch + " lastNr=" + lastPitch);
+            if (noteNameLookup.Count == 0)
+            {
+                FillNoteLookup();
+            }
+
+            if (lastNoteName != NoteName)
+            {
+                SetNotePitchFromName();
+                lastNoteName = NoteName;
+            }
+            if (lastPitch != pitch)
+            {
+                SetNoteNameFromPitch();
+                lastPitch = pitch;
+            }
+
         }
 
         public void PlayNote()
@@ -155,7 +190,7 @@ namespace extOSC.Examples
             Transmitter.Send(message);
         }
 
-        private void changeColorTo (Color toColor)
+        private void changeColorTo(Color toColor)
         {
             // Get the Renderer component from the new cube
             var cubeRenderer = GetComponent<Renderer>();
@@ -165,7 +200,7 @@ namespace extOSC.Examples
             bigCubeRenderer.material.SetColor("_Color", toColor);
         }
 
-        private void ChangeIdleObjectColorTo (Color toColor)
+        private void ChangeIdleObjectColorTo(Color toColor)
         {
             IdleObject.material.SetColor("_Color", toColor);
         }
