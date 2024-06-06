@@ -25,8 +25,11 @@ public class TestGuideBall : MonoBehaviour
         {
             guideBall.MoveToPosition(currentIndex);
 
-            // Wait for some time before moving to the next position
-            yield return new WaitForSeconds(2.0f);
+            // Wait until the ball has reached the target position
+            while ((guideBall.transform.position - guideBall.positions[currentIndex].position).sqrMagnitude > 0.01f)
+            {
+                yield return null;
+            }
 
             // Move to the next position in the array
             currentIndex = (currentIndex + 1) % guideBall.positions.Length;
