@@ -584,6 +584,10 @@ PrefabInstance:
       value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
+      propertyPath: NoteName
+      value: D4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: Receiver
       value: 
       objectReference: {fileID: 1734919691}
@@ -655,6 +659,10 @@ PrefabInstance:
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: pitch
       value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
+      propertyPath: NoteName
+      value: E4
       objectReference: {fileID: 0}
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: Receiver

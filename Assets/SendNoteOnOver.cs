@@ -15,7 +15,7 @@ namespace extOSC.Examples
         public string NoteName;
         public int velocity;
         public TMPro.TextMeshProUGUI NoteNameMesh;
-        public GameObject bigCube;
+        public GameObject eyeInteractObject;
         public string SendAddress = "/hand0";
 
 
@@ -193,10 +193,10 @@ namespace extOSC.Examples
         private void changeColorTo(Color toColor)
         {
             // Get the Renderer component from the new cube
-            var cubeRenderer = GetComponent<Renderer>();
-            var bigCubeRenderer = bigCube.GetComponent<Renderer>();
+            //var cubeRenderer = GetComponent<Renderer>();
+            var bigCubeRenderer = eyeInteractObject.GetComponent<Renderer>();
             // Call SetColor using the shader property name "_Color" and setting the color to red
-            cubeRenderer.material.SetColor("_Color", toColor);
+            //cubeRenderer.material.SetColor("_Color", toColor);
             bigCubeRenderer.material.SetColor("_Color", toColor);
         }
 
@@ -233,7 +233,7 @@ namespace extOSC.Examples
                         ChangeGuideObjectColorTo(Color.green);
                         //changeColorTo(Color.green);
                         //ChangeIdleObjectColorTo(Color.gray);
-                        videoPlayer = bigCube.GetComponent<VideoPlayer>();
+                        videoPlayer = eyeInteractObject.GetComponent<VideoPlayer>();
                         videoPlayer.Play();
                         // Move the guiding ball to the position corresponding to the note
                         //GuideBall.MoveToPosition(NoteValue); // Lauri Code
