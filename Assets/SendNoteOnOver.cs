@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 namespace extOSC.Examples
 {
@@ -11,13 +12,13 @@ namespace extOSC.Examples
 
         public int pitch;
         public int velocity;
-
+        public GameObject bigCube;
         public string SendAddress = "/hand0";
        
 
         public string ReceiveNote = "/Note1";
         public string ReceiveVelocity = "/Velocity1";
-        public GuideBall GuideBall;
+        //public GuideBall GuideBall;
 
         [Header("OSC Settings")]
         public OSCTransmitter Transmitter;
@@ -26,6 +27,9 @@ namespace extOSC.Examples
         public int LastReceivedVelocity = 0;
         public Renderer IdleObject;
         public Renderer GuideObject;
+        public VideoClip videoClip;
+        public VideoPlayer videoPlayer;
+        public Renderer targetRenderer;
 
         protected virtual void Start()
         {
@@ -53,6 +57,7 @@ namespace extOSC.Examples
 
             SendMidiNote(pitch, velocity);
             changeColorTo(Color.red);
+            videoPlayer.renderMode = VideoRenderMode.MaterialOverride;
 
         }
 
@@ -64,7 +69,7 @@ namespace extOSC.Examples
             if (!OnMouseEnterActive) return;
 
             SendMidiNote(pitch, 0);
-            changeColorTo(Color.gray);
+            changeColorTo(Color.white);
 
         }
 
@@ -86,9 +91,10 @@ namespace extOSC.Examples
         {
             // Get the Renderer component from the new cube
             var cubeRenderer = GetComponent<Renderer>();
-
+            var bigCubeRenderer = bigCube.GetComponent<Renderer>();
             // Call SetColor using the shader property name "_Color" and setting the color to red
             cubeRenderer.material.SetColor("_Color", toColor);
+            bigCubeRenderer.material.SetColor("_Color", toColor);
         }
 
         private void ChangeIdleObjectColorTo (Color toColor)
@@ -100,6 +106,12 @@ namespace extOSC.Examples
         {
             GuideObject.material.SetColor("_Color", toColor);
         }
+        private void ChangeMainCubeColor(Color toColor)
+
+        {
+            targetRenderer.material.SetColor("_Color", toColor);
+        }
+
 
         //Receiving messages code
         //Velocity first, then note
@@ -118,14 +130,17 @@ namespace extOSC.Examples
                         ChangeGuideObjectColorTo(Color.green);
                         //changeColorTo(Color.green);
                         //ChangeIdleObjectColorTo(Color.gray);
+                        videoPlayer = bigCube.GetComponent<VideoPlayer>();
+                        videoPlayer.Play();
                         // Move the guiding ball to the position corresponding to the note
-                        GuideBall.MoveToPosition(NoteValue); // Lauri Code
+                        //GuideBall.MoveToPosition(NoteValue); // Lauri Code
                         Debug.Log("Received note value: " + NoteValue); // Lauri Code
                     }
                     else
                     {
                         //changeColorTo(Color.gray);
-                        ChangeGuideObjectColorTo(Color.gray);
+                        videoPlayer.Stop();
+                        ChangeGuideObjectColorTo(Color.white);
                         //ChangeIdleObjectColorTo(Color.yellow);
                     }
                 }
