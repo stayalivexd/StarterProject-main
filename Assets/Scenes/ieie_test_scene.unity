@@ -246,7 +246,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348394787}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a68f7119e0e9d894f95e460efff8578a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 0f78fce1c5c08fa48980a89d6208b4bc, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -476,7 +476,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1226129713}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a68f7119e0e9d894f95e460efff8578a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 0f78fce1c5c08fa48980a89d6208b4bc, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -529,7 +529,7 @@ PrefabInstance:
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: videoClip
       value: 
-      objectReference: {fileID: 32900000, guid: a68f7119e0e9d894f95e460efff8578a, type: 3}
+      objectReference: {fileID: 32900000, guid: 0f78fce1c5c08fa48980a89d6208b4bc, type: 3}
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: IdleObject
       value: 
@@ -621,7 +621,7 @@ PrefabInstance:
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: videoClip
       value: 
-      objectReference: {fileID: 32900000, guid: a68f7119e0e9d894f95e460efff8578a, type: 3}
+      objectReference: {fileID: 32900000, guid: 0f78fce1c5c08fa48980a89d6208b4bc, type: 3}
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: IdleObject
       value: 
@@ -699,7 +699,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705043424}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a68f7119e0e9d894f95e460efff8578a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 0f78fce1c5c08fa48980a89d6208b4bc, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -833,7 +833,7 @@ PrefabInstance:
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: videoClip
       value: 
-      objectReference: {fileID: 32900000, guid: a68f7119e0e9d894f95e460efff8578a, type: 3}
+      objectReference: {fileID: 32900000, guid: 0f78fce1c5c08fa48980a89d6208b4bc, type: 3}
     - target: {fileID: 2491072797729321727, guid: 2cb87b7c94faa434a8c412fc8e2bc43b, type: 3}
       propertyPath: IdleObject
       value: 

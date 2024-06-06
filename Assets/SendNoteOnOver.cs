@@ -9,15 +9,16 @@ namespace extOSC.Examples
     {
 
         public bool OnMouseEnterActive = false;
-        public GameObject bigCube;
+
         public int pitch;
         public int velocity;
-
+        public GameObject bigCube;
         public string SendAddress = "/hand0";
-
+       
 
         public string ReceiveNote = "/Note1";
         public string ReceiveVelocity = "/Velocity1";
+        //public GuideBall GuideBall;
 
         [Header("OSC Settings")]
         public OSCTransmitter Transmitter;
@@ -26,12 +27,9 @@ namespace extOSC.Examples
         public int LastReceivedVelocity = 0;
         public Renderer IdleObject;
         public Renderer GuideObject;
-
         public VideoClip videoClip;
         public VideoPlayer videoPlayer;
         public Renderer targetRenderer;
-        
-
 
         protected virtual void Start()
         {
@@ -59,12 +57,7 @@ namespace extOSC.Examples
 
             SendMidiNote(pitch, velocity);
             changeColorTo(Color.red);
-            //videoPlayer = bigCube.AddComponent<VideoPlayer>();
-
             videoPlayer.renderMode = VideoRenderMode.MaterialOverride;
-
-
-            //videoPlayer.Play();
 
         }
 
@@ -94,33 +87,24 @@ namespace extOSC.Examples
             Transmitter.Send(message);
         }
 
-        private void changeColorTo(Color toColor)
+        private void changeColorTo (Color toColor)
         {
             // Get the Renderer component from the new cube
-
             var cubeRenderer = GetComponent<Renderer>();
             var bigCubeRenderer = bigCube.GetComponent<Renderer>();
-           
-
-
             // Call SetColor using the shader property name "_Color" and setting the color to red
             cubeRenderer.material.SetColor("_Color", toColor);
             bigCubeRenderer.material.SetColor("_Color", toColor);
         }
 
-        private void ChangeIdleObjectColorTo(Color toColor)
+        private void ChangeIdleObjectColorTo (Color toColor)
         {
             IdleObject.material.SetColor("_Color", toColor);
-
-
         }
 
         private void ChangeGuideObjectColorTo(Color toColor)
         {
             GuideObject.material.SetColor("_Color", toColor);
-
-
-
         }
         private void ChangeMainCubeColor(Color toColor)
 
@@ -128,13 +112,6 @@ namespace extOSC.Examples
             targetRenderer.material.SetColor("_Color", toColor);
         }
 
-        private void StartGuideAnim()
-        {
-            //videoPlayer = gameObject.AddComponent<VideoPlayer>();
-            //videoPlayer.playOnAwake = false; 
-            //videoPlayer.renderMode = VideoRenderMode.MaterialOverride;
-           
-        }
 
         //Receiving messages code
         //Velocity first, then note
@@ -151,23 +128,19 @@ namespace extOSC.Examples
                     if (LastReceivedVelocity > 0)
                     {
                         ChangeGuideObjectColorTo(Color.green);
-                        videoPlayer = bigCube.GetComponent<VideoPlayer>();
-                        videoPlayer.Play();
-
-
-                        //bigCube.GetComponent<VideoPlayer>();
-                        //bigCube.GetComponent<Renderer>().material.mainTexture.Play();
-                        //movie.Play();
                         //changeColorTo(Color.green);
                         //ChangeIdleObjectColorTo(Color.gray);
+                        videoPlayer = bigCube.GetComponent<VideoPlayer>();
+                        videoPlayer.Play();
+                        // Move the guiding ball to the position corresponding to the note
+                        //GuideBall.MoveToPosition(NoteValue); // Lauri Code
+                        Debug.Log("Received note value: " + NoteValue); // Lauri Code
                     }
                     else
                     {
-                        videoPlayer.Stop();
                         //changeColorTo(Color.gray);
-                        ChangeGuideObjectColorTo(Color.gray);
-                       // ChangeMainCubeColor(Color.white);
-                       //movie.Pause();
+                        videoPlayer.Stop();
+                        ChangeGuideObjectColorTo(Color.white);
                         //ChangeIdleObjectColorTo(Color.yellow);
                     }
                 }
