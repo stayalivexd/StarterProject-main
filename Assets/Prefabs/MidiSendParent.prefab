@@ -346,6 +346,9 @@ GameObject:
   - component: {fileID: 1511392626448097204}
   - component: {fileID: 8061651656483809715}
   - component: {fileID: 9087090415583585585}
+  - component: {fileID: 4118406294457646881}
+  - component: {fileID: 3865349561967349355}
+  - component: {fileID: 8008818032470463389}
   m_Layer: 0
   m_Name: EyeInteract
   m_TagString: Untagged
@@ -475,6 +478,72 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!54 &4118406294457646881
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6121802708000692921}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3865349561967349355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6121802708000692921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnObjectHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverActiveMaterial: {fileID: 2100000, guid: 84165fe317aa0394c9d3cd1a3a10ed11, type: 2}
+  OnHoverInactiveMaterial: {fileID: 2100000, guid: 55f86a840c363aa4c829d2f18bd33157, type: 2}
+  OscSend: {fileID: 0}
+--- !u!135 &8008818032470463389
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6121802708000692921}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0.000000059604645, y: -0.0000019073486, z: -0.00000008940699}
 --- !u!1 &8259955847387770100
 GameObject:
   m_ObjectHideFlags: 0
