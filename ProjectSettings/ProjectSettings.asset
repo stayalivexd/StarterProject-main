@@ -139,8 +139,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: f52f9d11a73fa8a40807e6cc6eacc47b, type: 2}
-  - {fileID: -2177083169535173385, guid: 74cf2e0dc6053ba449bfb92ecf215db6, type: 2}
-  - {fileID: 11400000, guid: a119f6f587e88314ebd5072fee8a96d6, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -630,7 +628,6 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchEnableFileSystemTrace: 0
-  switchUseGOLDLinker: 0
   switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
