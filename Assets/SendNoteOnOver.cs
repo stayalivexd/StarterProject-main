@@ -221,7 +221,7 @@ namespace extOSC.Examples
 
         private void ReceivedNote(OSCMessage message)
         {
-            //Debug.LogFormat("Received: {0}", message);
+            Debug.LogFormat("Received: {0}", message);
 
             int NoteValue;
             if (message.ToInt(out NoteValue))
