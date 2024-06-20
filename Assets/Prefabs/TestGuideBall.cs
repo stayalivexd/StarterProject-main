@@ -26,7 +26,8 @@ public class TestGuideBall : MonoBehaviour
             guideBall.MoveToPosition(currentIndex);
 
             // Wait until the ball has reached the target position
-            while ((guideBall.transform.position - guideBall.positions[currentIndex].position).sqrMagnitude > 0.01f)
+            while ((guideBall.transform.position - (guideBall.positions[currentIndex].position + new Vector3(0, 0, -0.5f))).sqrMagnitude > 0.01f)
+
             {
                 yield return null;
             }

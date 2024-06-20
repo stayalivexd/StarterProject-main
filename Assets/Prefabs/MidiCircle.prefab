@@ -188,10 +188,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
-  pitch: 0
-  velocity: 0
-  bigCube: {fileID: 6287824474055883711}
+  OnMouseEnterActive: 1
+  pitch: 72
+  NoteName: C4
+  velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1

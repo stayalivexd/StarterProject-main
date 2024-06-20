@@ -16,7 +16,10 @@ public class GuideBall : MonoBehaviour
     void Update()
     {
         // Move the ball towards the target position
-        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * speed);
+        float step = speed * Time.deltaTime;
+        transform.position = Vector3.Lerp(transform.position, targetPosition, step);
+
+        //transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * speed);
     }
 
     public void MoveToPosition(int index)
@@ -25,6 +28,7 @@ public class GuideBall : MonoBehaviour
         if (index >= 0 && index < positions.Length)
         {
             targetPosition = positions[index].position;
+            targetPosition.z += -0.5f;
             Debug.Log("Moving to position: " + targetPosition);
         }
     }
