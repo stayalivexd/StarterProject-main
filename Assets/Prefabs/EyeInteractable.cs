@@ -7,6 +7,8 @@ using UnityEngine.Events;
 public class EyeInteractable : MonoBehaviour
 {
     public bool IsHovered { get; set; }
+    public bool OnMouseEnterActive = false;
+    public bool UseUnityAudioClip = false;
 
     [SerializeField]
     private UnityEvent OnObjectHover;
@@ -17,24 +19,24 @@ public class EyeInteractable : MonoBehaviour
     [SerializeField]
     private Material OnHoverInactiveMaterial;
 
-   // [SerializeField]
-   // private AudioClip hoverSound;
+    [SerializeField]
+    private AudioClip hoverSound;
 
     private MeshRenderer meshRenderer;
-    // private AudioSource audioSource; 
+    private AudioSource audioSource; 
 
     [SerializeField]
 
     private extOSC.Examples.SendNoteOnOver OscSend;
 
-    private bool Isenter;
+    private bool Isenter=false;
     
 
 
     private void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
-      //  audioSource = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
       
     }
 
@@ -46,7 +48,7 @@ public class EyeInteractable : MonoBehaviour
             Isenter = true;
             if (meshRenderer.material != OnHoverActiveMaterial)
             {
-                //  audioSource.PlayOneShot(hoverSound);
+                audioSource.PlayOneShot(hoverSound);
                 
             }
             OnObjectHover?.Invoke();
@@ -58,6 +60,34 @@ public class EyeInteractable : MonoBehaviour
             OscSend.StopNote();
             Isenter = false;
         }
+    }
+
+    /// <summary>
+    /// Helper function to simulate eyetracking interactiuon in editor
+    /// </summary>
+    private void OnMouseEnter()
+    {
+        if (!OnMouseEnterActive) return;
+
+        OscSend.PlayNote();
+        if (meshRenderer.material != OnHoverActiveMaterial)
+        {
+            audioSource.PlayOneShot(hoverSound);
+
+        }
+        meshRenderer.material = OnHoverActiveMaterial;
+    }
+
+    /// <summary>
+    /// Helper function to simulate eyetracking interactiuon in editor
+    /// </summary>
+    private void OnMouseExit()
+    {
+        if (!OnMouseEnterActive) return;
+
+        meshRenderer.material = OnHoverInactiveMaterial;
+        OscSend.StopNote();
+
     }
 
 }

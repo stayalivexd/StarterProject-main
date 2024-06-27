@@ -9,7 +9,7 @@ namespace extOSC.Examples
     public class SendNoteOnOver : MonoBehaviour
     {
 
-        public bool OnMouseEnterActive = false;
+        //public bool OnMouseEnterActive = false;
 
         public int pitch;
         public string NoteName;
@@ -137,6 +137,7 @@ namespace extOSC.Examples
                 SetNoteNameFromPitch();
                 lastPitch = pitch;
             }
+            gameObject.name = "Note_" + NoteName;
 
         }
 
@@ -150,7 +151,7 @@ namespace extOSC.Examples
             SendMidiNote(pitch, 0);
         }
 
-
+        /* Function moved to eyeinteractable
         /// <summary>
         /// Helper function to simulate eyetracking interactiuon in editor
         /// </summary>
@@ -175,6 +176,7 @@ namespace extOSC.Examples
             changeColorTo(Color.white);
 
         }
+        */
 
         private OSCMessage CreateMidiNote(int pitch, int velocity)
         {
