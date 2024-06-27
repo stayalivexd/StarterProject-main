@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(LineRenderer))]
 public class EyeTrackingRay : MonoBehaviour
@@ -22,6 +23,11 @@ public class EyeTrackingRay : MonoBehaviour
     private LineRenderer lineRenderer;
 
     private List<EyeInteractable> eyeInteractables = new List<EyeInteractable>();
+
+    float pokeForce;
+
+    
+   
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +52,13 @@ public class EyeTrackingRay : MonoBehaviour
     {
         RaycastHit hit;
         Vector3 rayDirection = transform.TransformDirection(Vector3.forward) * rayDistance;
+        Plane p = new Plane(Vector3.right, 0);
+        var ray = new Ray(transform.position, transform.forward);
+        if (p.Raycast(new Ray(transform.position, transform.forward), out float enter))
+        {
+            Vector3 thePoint = ray.GetPoint(enter);
+            
+        }
 
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, rayDirection, out hit, Mathf.Infinity, layersToInclude))
