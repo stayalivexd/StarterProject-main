@@ -7,9 +7,13 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneOnOver : MonoBehaviour
 {
+    enum OnoverRole { ChangeScene, Quit };
 
     public bool IsHovered { get; set; }
     public bool OnMouseEnterActive = false;
+
+    [SerializeField]
+    private OnoverRole role;
 
     [SerializeField]
     //private SceneAsset GotoScene;  //only works in editor, not on headset
@@ -118,7 +122,16 @@ public class ChangeSceneOnOver : MonoBehaviour
 
             if (ind >= 5)
             {
-                SceneManager.LoadScene(GotoSceneString);
+               if (role == OnoverRole.ChangeScene)
+                {
+                    SceneManager.LoadScene(GotoSceneString);
+                }
+                if (role == OnoverRole.Quit)
+                {
+                    Debug.Log("Quit from menu");
+                    Application.Quit();
+                }
+
             }
             else if (ind >= 0)
             {
