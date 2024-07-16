@@ -100,7 +100,10 @@ namespace extOSC.Examples
                 if (note.pitch == pitch)
                 {
                     NoteName = note.NoteName;
-                    NoteNameMesh.text = note.NoteName;
+                    if (NoteNameMesh != null)
+                    {
+                        NoteNameMesh.text = note.NoteName;
+                    }
                 }
             }
         }

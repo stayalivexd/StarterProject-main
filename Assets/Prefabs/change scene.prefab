@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8744898922166947413}
   - component: {fileID: 3374538014197110109}
   m_Layer: 0
-  m_Name: change scene
+  m_Name: 'Goto: '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnMouseEnterActive: 1
-  GotoScene: {fileID: 0}
+  GotoSceneString: 
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4 notes
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -11,13 +11,25 @@ public class MidiSendParentSetParameters : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //if not in editor disable onmouseover
+        if (!Application.isEditor)
+        {
+            OnMouseEnterActive = false;
+
+            //look up all childs of Eyeinteractable
+            EyeInteractable[] myItems = FindObjectsOfType(typeof(EyeInteractable)) as EyeInteractable[];
+            //Debug.Log("Found " + myItems.Length + " instances with this script attached");
+            foreach (EyeInteractable item in myItems)
+            {
+                item.OnMouseEnterActive = OnMouseEnterActive;
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     /**
@@ -27,7 +39,7 @@ public class MidiSendParentSetParameters : MonoBehaviour
     {
         //look up all childs of Eyeinteractable
         EyeInteractable[] myItems = FindObjectsOfType(typeof(EyeInteractable)) as EyeInteractable[];
-        Debug.Log("Found " + myItems.Length + " instances with this script attached");
+        //Debug.Log("Found " + myItems.Length + " instances with this script attached");
         foreach (EyeInteractable item in myItems)
         {
             item.OnMouseEnterActive = OnMouseEnterActive;

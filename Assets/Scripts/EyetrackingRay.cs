@@ -23,6 +23,7 @@ public class EyeTrackingRay : MonoBehaviour
     private LineRenderer lineRenderer;
 
     private List<EyeInteractable> eyeInteractables = new List<EyeInteractable>();
+    private List<ChangeSceneOnOver> sceneChangeList = new List<ChangeSceneOnOver>();  
 
     float pokeForce;
 
@@ -66,6 +67,8 @@ public class EyeTrackingRay : MonoBehaviour
             UnSelect();
             lineRenderer.startColor = rayColorHoverState;
             lineRenderer.endColor = rayColorHoverState;
+
+            //check for eye interactables
             var eyeInteractable = hit.transform.GetComponent<EyeInteractable>();
             if (eyeInteractable != null)
             {
@@ -74,6 +77,14 @@ public class EyeTrackingRay : MonoBehaviour
             }
             //eyeInteractables.Add(eyeInteractable);
             //eyeInteractable.IsHovered = true;
+
+            //check for scenechange elements
+            var sceneEyeInteractable = hit.transform.GetComponent<ChangeSceneOnOver>();
+            if (sceneEyeInteractable != null)
+            {
+                sceneChangeList.Add(sceneEyeInteractable);
+                sceneEyeInteractable.IsHovered = true;
+            }
         }
         else
         {
@@ -89,6 +100,13 @@ public class EyeTrackingRay : MonoBehaviour
         {
             interactable.IsHovered = false;
         }
+
+        foreach (var sceneEyeInteract in sceneChangeList)
+        {
+            sceneEyeInteract.IsHovered = false;
+        }
+
+
         if (clear)
             eyeInteractables.Clear();
     }

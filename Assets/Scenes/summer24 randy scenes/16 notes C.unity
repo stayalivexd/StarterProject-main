@@ -434,13 +434,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: scene menu Flo
       objectReference: {fileID: 0}
+    - target: {fileID: 1213037515169258470, guid: beeafb05e77c941deb9c35725c815eca, type: 3}
+      propertyPath: OnMouseEnterActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432771016269570856, guid: beeafb05e77c941deb9c35725c815eca, type: 3}
+      propertyPath: OnMouseEnterActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7400479877819442063, guid: beeafb05e77c941deb9c35725c815eca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.87
+      value: 6.21
       objectReference: {fileID: 0}
     - target: {fileID: 7400479877819442063, guid: beeafb05e77c941deb9c35725c815eca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.56
+      value: 2.58
       objectReference: {fileID: 0}
     - target: {fileID: 7400479877819442063, guid: beeafb05e77c941deb9c35725c815eca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -473,6 +481,10 @@ PrefabInstance:
     - target: {fileID: 7400479877819442063, guid: beeafb05e77c941deb9c35725c815eca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817082128912340023, guid: beeafb05e77c941deb9c35725c815eca, type: 3}
+      propertyPath: OnMouseEnterActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -866,7 +878,7 @@ MonoBehaviour:
   _localReceiver: {fileID: 0}
   _localHost: 192.168.178.11
   _localPort: 7000
-  _remoteHost: 127.0.0.1
+  _remoteHost: 172.20.10.7
   _remotePort: 7000
   _useBundle: 0
 --- !u!114 &762976104

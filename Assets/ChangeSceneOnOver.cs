@@ -12,7 +12,8 @@ public class ChangeSceneOnOver : MonoBehaviour
     public bool OnMouseEnterActive = false;
 
     [SerializeField]
-    private SceneAsset GotoScene;
+    //private SceneAsset GotoScene;  //only works in editor, not on headset
+    private string GotoSceneString;
 
     [SerializeField]
     private UnityEvent OnObjectHover;
@@ -33,8 +34,11 @@ public class ChangeSceneOnOver : MonoBehaviour
 
     private void OnValidate()
     {
-        gameObject.name = "Goto: " + GotoScene.name;
-        UIText.text = GotoScene.name;
+        if (GotoSceneString != null)
+        {
+            gameObject.name = "Goto: " + GotoSceneString;
+            UIText.text = GotoSceneString;
+        }
 
     }
 
@@ -76,7 +80,7 @@ public class ChangeSceneOnOver : MonoBehaviour
 
     void changeScene()
     {
-        SceneManager.LoadScene(GotoScene.name);
+        SceneManager.LoadScene(GotoSceneString);
     }
 
     void OnStartHover()
@@ -88,7 +92,7 @@ public class ChangeSceneOnOver : MonoBehaviour
         {
             ind = 0;
             StartCoroutine(waitCoroutine());
-            UIText.text = GotoScene.name + " " + (5 - ind).ToString();
+            UIText.text = GotoSceneString + " " + (5 - ind).ToString();
         }
         meshRenderer.material = OnHoverActiveMaterial;
     }
@@ -114,18 +118,18 @@ public class ChangeSceneOnOver : MonoBehaviour
 
             if (ind >= 5)
             {
-                SceneManager.LoadScene(GotoScene.name);
+                SceneManager.LoadScene(GotoSceneString);
             }
             else if (ind >= 0)
             {
 
                 ind++;
-                UIText.text = GotoScene.name + " " + (5 - ind).ToString();
+                UIText.text = GotoSceneString + " " + (5 - ind).ToString();
             }
 
             else
             {
-                UIText.text = GotoScene.name;
+                UIText.text = GotoSceneString;
                 break;
             }
         }

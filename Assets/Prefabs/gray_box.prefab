@@ -997,6 +997,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8380157826906577798, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_C4
+      objectReference: {fileID: 0}
+    - target: {fileID: -6733177361254619370, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_F3
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_C3
+      objectReference: {fileID: 0}
     - target: {fileID: -5477749408508380018, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.41
@@ -1041,6 +1053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gray_box
       objectReference: {fileID: 0}
+    - target: {fileID: 2800250516343163423, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_E4
+      objectReference: {fileID: 0}
     - target: {fileID: 3316992658331686828, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.294
@@ -1052,6 +1068,10 @@ PrefabInstance:
     - target: {fileID: 3316992658331686828, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.195
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849762623622064168, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_F4
       objectReference: {fileID: 0}
     - target: {fileID: 4865064391339405807, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1125,6 +1145,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.81
       objectReference: {fileID: 0}
+    - target: {fileID: 6512510688612296998, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_
+      objectReference: {fileID: 0}
     - target: {fileID: 6732398567079961185, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.305
@@ -1132,6 +1156,10 @@ PrefabInstance:
     - target: {fileID: 6732398567079961185, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.124
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513859187771203891, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_D3
       objectReference: {fileID: 0}
     - target: {fileID: 8670761335428686811, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1144,6 +1172,10 @@ PrefabInstance:
     - target: {fileID: 8670761335428686811, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.022
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700725330082129686, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
+      propertyPath: m_Name
+      value: Note_G3
       objectReference: {fileID: 0}
     - target: {fileID: 8946660040297601765, guid: 8c6a326898bfdef49b97b87e28255cc5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1327,9 +1359,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 62
+  NoteName: D3
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -1338,6 +1372,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 8939457408881939420}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &2414465603217183180
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1399,11 +1436,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 5837562058680534170}
 --- !u!82 &4085132984494950425
 AudioSource:
@@ -1523,9 +1563,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 67
+  NoteName: G3
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -1534,6 +1576,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 1556665635880255044}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &4909971028365156162
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1595,11 +1640,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 4548422074098374992}
 --- !u!82 &6948693670093031869
 AudioSource:
@@ -1724,9 +1772,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 0
+  NoteName: 
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -1735,6 +1785,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 3211498691312788921}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &3403638375474280942
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1796,11 +1849,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 5576350818456765762}
 --- !u!82 &7395475861040642456
 AudioSource:
@@ -1935,9 +1991,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 60
+  NoteName: C3
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -1946,6 +2004,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 6014643463039146090}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &5047418636774549018
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2007,11 +2068,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 3458915995274879587}
 --- !u!82 &2641200587441444992
 AudioSource:
@@ -2126,9 +2190,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 77
+  NoteName: F4
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -2137,6 +2203,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 2567189526826394428}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &8479088414631505324
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2198,11 +2267,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 5743005321599465626}
 --- !u!82 &1801551309395358923
 AudioSource:
@@ -2317,9 +2389,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 65
+  NoteName: F3
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -2328,6 +2402,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 3785642818755295753}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &7622065461542623640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2389,11 +2466,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 7211517286955566246}
 --- !u!82 &4631870048890791421
 AudioSource:
@@ -2508,9 +2588,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 76
+  NoteName: E4
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -2519,6 +2601,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 2626403443788605815}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &5160222662358899656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2580,11 +2665,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 6590695177605191507}
 --- !u!82 &8470901249203681658
 AudioSource:
@@ -2709,9 +2797,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnMouseEnterActive: 0
   pitch: 72
+  NoteName: C4
   velocity: 100
+  NoteNameMesh: {fileID: 0}
+  eyeInteractObject: {fileID: 0}
   SendAddress: /hand0
   ReceiveNote: /Note1
   ReceiveVelocity: /Velocity1
@@ -2720,6 +2810,9 @@ MonoBehaviour:
   LastReceivedVelocity: 0
   IdleObject: {fileID: 902550746336056687}
   GuideObject: {fileID: 2033791472155220053}
+  videoClip: {fileID: 0}
+  videoPlayer: {fileID: 0}
+  targetRenderer: {fileID: 0}
 --- !u!64 &6500921540349539258
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2781,11 +2874,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fe0f6b407e0be540b44a522779aed13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnMouseEnterActive: 0
+  UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
       m_Calls: []
   OnHoverActiveMaterial: {fileID: 2100000, guid: 94636df36b9711b43832858842331787, type: 2}
   OnHoverInactiveMaterial: {fileID: 2100000, guid: bfac12319a596d348b2a94c4777f0bd7, type: 2}
+  hoverSound: {fileID: 0}
   OscSend: {fileID: 186056409678076138}
 --- !u!82 &2509792331096198058
 AudioSource:
