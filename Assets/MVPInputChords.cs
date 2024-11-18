@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MVPInputChords : MonoBehaviour
 {
     public MVPControls controls;
+    public EventSystem eventSystem;
+
+    bool playingInstrument;
+    GameObject selectedGameObject;
 
     [SerializeField] private float horizontalInput;
     private float horizontalInputLastFrame;
@@ -24,6 +29,7 @@ public class MVPInputChords : MonoBehaviour
         controls.Gameplay.ButtonB.performed += context => Button(1);
         controls.Gameplay.ButtonX.performed += context => Button(2);
         controls.Gameplay.ButtonY.performed += context => Button(3);
+        controls.Gameplay.ButtonStart.performed += context => PlayMode();
     }
 
     // Start is called before the first frame update
@@ -72,6 +78,20 @@ public class MVPInputChords : MonoBehaviour
         for (int i = 0; i < notes.Length; i++)
         {
             audioSources[i].clip = audioClips[chord];
+        }
+    }
+
+    void PlayMode()
+    {
+        playingInstrument =! playingInstrument;
+        if (!playingInstrument)
+        {
+            selectedGameObject = eventSystem.currentSelectedGameObject;
+            eventSystem.SetSelectedGameObject(null);
+        }
+        else
+        {
+            eventSystem.SetSelectedGameObject(selectedGameObject);
         }
     }
 

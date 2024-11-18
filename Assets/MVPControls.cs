@@ -71,6 +71,15 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""ButtonStart"",
+                    ""type"": ""Button"",
+                    ""id"": ""ede74d23-af57-4ea3-ae4f-e27093752e5e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -150,6 +159,17 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                     ""action"": ""Stick"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""01925022-7fd9-4f22-8969-9b9198ec29b8"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ButtonStart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -175,6 +195,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
         m_Gameplay_ButtonX = m_Gameplay.FindAction("ButtonX", throwIfNotFound: true);
         m_Gameplay_ButtonY = m_Gameplay.FindAction("ButtonY", throwIfNotFound: true);
         m_Gameplay_Stick = m_Gameplay.FindAction("Stick", throwIfNotFound: true);
+        m_Gameplay_ButtonStart = m_Gameplay.FindAction("ButtonStart", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -241,6 +262,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_ButtonX;
     private readonly InputAction m_Gameplay_ButtonY;
     private readonly InputAction m_Gameplay_Stick;
+    private readonly InputAction m_Gameplay_ButtonStart;
     public struct GameplayActions
     {
         private @MVPControls m_Wrapper;
@@ -250,6 +272,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
         public InputAction @ButtonX => m_Wrapper.m_Gameplay_ButtonX;
         public InputAction @ButtonY => m_Wrapper.m_Gameplay_ButtonY;
         public InputAction @Stick => m_Wrapper.m_Gameplay_Stick;
+        public InputAction @ButtonStart => m_Wrapper.m_Gameplay_ButtonStart;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -274,6 +297,9 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
             @Stick.started += instance.OnStick;
             @Stick.performed += instance.OnStick;
             @Stick.canceled += instance.OnStick;
+            @ButtonStart.started += instance.OnButtonStart;
+            @ButtonStart.performed += instance.OnButtonStart;
+            @ButtonStart.canceled += instance.OnButtonStart;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -293,6 +319,9 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
             @Stick.started -= instance.OnStick;
             @Stick.performed -= instance.OnStick;
             @Stick.canceled -= instance.OnStick;
+            @ButtonStart.started -= instance.OnButtonStart;
+            @ButtonStart.performed -= instance.OnButtonStart;
+            @ButtonStart.canceled -= instance.OnButtonStart;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)
@@ -326,5 +355,6 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
         void OnButtonX(InputAction.CallbackContext context);
         void OnButtonY(InputAction.CallbackContext context);
         void OnStick(InputAction.CallbackContext context);
+        void OnButtonStart(InputAction.CallbackContext context);
     }
 }
