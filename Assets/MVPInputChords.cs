@@ -44,14 +44,14 @@ public class MVPInputChords : MonoBehaviour
 
             audioSources[currentSource].Play();
             currentSource += 1;
-            if (currentSource >= 8)
+            if (currentSource >= audioSources.Length)
             {
                 currentSource = 0;
             }
         }
         horizontalInputLastFrame = horizontalInput;
 
-        /*
+        
         if (Input.GetMouseButtonDown(0))
         {
             notes[chord].PlayNote();
@@ -63,7 +63,7 @@ public class MVPInputChords : MonoBehaviour
                 currentSource = 0;
             }
         }
-        */
+        
     }
 
     void Button(int chordInput)
