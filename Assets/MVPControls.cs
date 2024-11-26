@@ -86,7 +86,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""b6bf3259-4cc3-4324-b4f8-77371b45fb28"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button3"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Game"",
@@ -97,7 +97,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a58f206c-9f55-4d69-b282-60a27d92f4bd"",
-                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button4"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Game"",
@@ -108,7 +108,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""2e9ce32e-afe2-400b-907f-cfdc9e16927f"",
-                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/trigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Game"",
@@ -119,7 +119,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""d584d9fc-f54d-4721-94a3-c16a8f8c37d9"",
-                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button2"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Game"",
@@ -141,7 +141,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""d4122a92-37ab-4454-84b1-2bdb39005d55"",
-                    ""path"": ""<Gamepad>/leftStick/left"",
+                    ""path"": ""<Joystick>/stick/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Game"",
@@ -152,7 +152,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""739e1f2e-979a-430b-85af-b1cad5d943eb"",
-                    ""path"": ""<Gamepad>/leftStick/right"",
+                    ""path"": ""<Joystick>/stick/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Game"",
@@ -163,7 +163,7 @@ public partial class @MVPControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""01925022-7fd9-4f22-8969-9b9198ec29b8"",
-                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
