@@ -16,24 +16,19 @@ public class activator : MonoBehaviour
    
     void Update()
     {
-        Debug.Log("arse");
-
-        if (active)
-        {
-            Debug.Log("ass");
             if (Input.GetKeyDown(key) && active)
             {
                 Debug.Log("butt");
-                Destroy(note);
-            }
+               // Destroy(note);
+                Destroy(gameObject);
         }
            
     }
 
-    void OnTrigger2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
         active = true;
-        if (col.gameObject.tag =="note")
+        if (col.gameObject.tag =="Note")
             note = col.gameObject;
     }
 

@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 66949550}
   m_Layer: 0
   m_Name: activator (83)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,7 +219,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &66949552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 93997461}
   m_Layer: 0
   m_Name: activator (29)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -494,7 +494,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &93997463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &93997464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 133197500}
   m_Layer: 0
   m_Name: activator (62)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -687,7 +687,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &133197502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &133197503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -768,7 +768,7 @@ GameObject:
   - component: {fileID: 150557125}
   m_Layer: 0
   m_Name: activator (7)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -849,7 +849,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &150557127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &150557128
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -930,7 +930,7 @@ GameObject:
   - component: {fileID: 208269193}
   m_Layer: 0
   m_Name: activator (133)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1011,7 +1011,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &208269195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &208269196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1172,7 +1172,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.92
+  m_Radius: 4.91
 --- !u!212 &213927852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1240,7 +1240,7 @@ GameObject:
   - component: {fileID: 223361421}
   m_Layer: 0
   m_Name: activator (31)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1321,7 +1321,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &223361423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,7 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &223361424
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1402,7 +1402,7 @@ GameObject:
   - component: {fileID: 226217006}
   m_Layer: 0
   m_Name: activator (32)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1483,7 +1483,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &226217008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &226217009
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1564,7 +1564,7 @@ GameObject:
   - component: {fileID: 233995081}
   m_Layer: 0
   m_Name: activator (76)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1645,7 +1645,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &233995083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &233995084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1726,7 +1726,7 @@ GameObject:
   - component: {fileID: 254232313}
   m_Layer: 0
   m_Name: activator (149)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1807,7 +1807,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &254232315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1820,7 +1820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &254232316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1888,7 +1888,7 @@ GameObject:
   - component: {fileID: 263414772}
   m_Layer: 0
   m_Name: activator (104)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1969,7 +1969,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &263414774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1982,7 +1982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &263414775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2050,7 +2050,7 @@ GameObject:
   - component: {fileID: 263424455}
   m_Layer: 0
   m_Name: activator (127)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2131,7 +2131,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &263424457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2212,7 +2212,7 @@ GameObject:
   - component: {fileID: 276500972}
   m_Layer: 0
   m_Name: activator (135)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2293,7 +2293,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &276500974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2454,7 +2454,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.92
+  m_Radius: 4.91
 --- !u!212 &279570744
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2522,7 +2522,7 @@ GameObject:
   - component: {fileID: 323611872}
   m_Layer: 0
   m_Name: activator (70)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2603,7 +2603,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &323611874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2616,7 +2616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &323611875
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2684,7 +2684,7 @@ GameObject:
   - component: {fileID: 338697414}
   m_Layer: 0
   m_Name: activator (3)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2765,7 +2765,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &338697416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2846,7 +2846,7 @@ GameObject:
   - component: {fileID: 361039085}
   m_Layer: 0
   m_Name: activator (82)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2927,7 +2927,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &361039087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2940,7 +2940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &361039088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3008,7 +3008,7 @@ GameObject:
   - component: {fileID: 414081971}
   m_Layer: 0
   m_Name: activator (98)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3089,7 +3089,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &414081973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3201,7 +3201,7 @@ GameObject:
   - component: {fileID: 464688616}
   m_Layer: 0
   m_Name: activator (42)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3282,7 +3282,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &464688618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3295,7 +3295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &464688619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3363,7 +3363,7 @@ GameObject:
   - component: {fileID: 505305768}
   m_Layer: 0
   m_Name: activator (140)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3444,7 +3444,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &505305770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3457,7 +3457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &505305771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3525,7 +3525,7 @@ GameObject:
   - component: {fileID: 511047444}
   m_Layer: 0
   m_Name: activator (43)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3606,7 +3606,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &511047446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3619,7 +3619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &511047447
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3781,7 +3781,7 @@ GameObject:
   - component: {fileID: 544475846}
   m_Layer: 0
   m_Name: activator (108)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3862,7 +3862,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &544475848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3875,7 +3875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &544475849
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3943,7 +3943,7 @@ GameObject:
   - component: {fileID: 586125335}
   m_Layer: 0
   m_Name: activator (129)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4024,7 +4024,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &586125337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4037,7 +4037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &586125338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4105,7 +4105,7 @@ GameObject:
   - component: {fileID: 595333462}
   m_Layer: 0
   m_Name: activator (80)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4186,7 +4186,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &595333464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4199,7 +4199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &595333465
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4267,7 +4267,7 @@ GameObject:
   - component: {fileID: 609389729}
   m_Layer: 0
   m_Name: activator (126)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4348,7 +4348,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &609389731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4429,7 +4429,7 @@ GameObject:
   - component: {fileID: 649827371}
   m_Layer: 0
   m_Name: activator (72)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4510,7 +4510,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &649827373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4523,7 +4523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &649827374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4591,7 +4591,7 @@ GameObject:
   - component: {fileID: 667508675}
   m_Layer: 0
   m_Name: activator (47)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4672,7 +4672,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &667508677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4685,7 +4685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &667508678
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4753,7 +4753,7 @@ GameObject:
   - component: {fileID: 672687729}
   m_Layer: 0
   m_Name: activator (34)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4834,7 +4834,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &672687731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4847,7 +4847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &672687732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4915,7 +4915,7 @@ GameObject:
   - component: {fileID: 682211981}
   m_Layer: 0
   m_Name: activator (131)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4996,7 +4996,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &682211983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5009,7 +5009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &682211984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5093,7 +5093,7 @@ GameObject:
   - component: {fileID: 744651990}
   m_Layer: 0
   m_Name: activator (81)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5174,7 +5174,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &744651992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5187,7 +5187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &744651993
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5344,7 +5344,7 @@ GameObject:
   - component: {fileID: 798357449}
   m_Layer: 0
   m_Name: activator (35)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5425,7 +5425,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &798357451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5438,7 +5438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &798357452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5506,7 +5506,7 @@ GameObject:
   - component: {fileID: 799029496}
   m_Layer: 0
   m_Name: activator (60)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5587,7 +5587,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &799029498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5600,7 +5600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &799029499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5668,7 +5668,7 @@ GameObject:
   - component: {fileID: 832506054}
   m_Layer: 0
   m_Name: activator (134)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5749,7 +5749,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &832506056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5762,7 +5762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &832506057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5830,7 +5830,7 @@ GameObject:
   - component: {fileID: 849295715}
   m_Layer: 0
   m_Name: activator (36)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5911,7 +5911,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &849295717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5992,7 +5992,7 @@ GameObject:
   - component: {fileID: 940435502}
   m_Layer: 0
   m_Name: activator (73)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6073,7 +6073,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &940435504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6086,7 +6086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &940435505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6154,7 +6154,7 @@ GameObject:
   - component: {fileID: 952337402}
   m_Layer: 0
   m_Name: activator (150)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6235,7 +6235,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &952337404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6248,7 +6248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &952337405
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6396,7 +6396,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.92
+  m_Radius: 4.91
 --- !u!212 &956451712
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6529,7 +6529,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3.92
+  m_Radius: 4.91
 --- !u!212 &958351095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6612,7 +6612,7 @@ GameObject:
   - component: {fileID: 976500823}
   m_Layer: 0
   m_Name: activator (112)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6693,7 +6693,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &976500825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6774,7 +6774,7 @@ GameObject:
   - component: {fileID: 991521636}
   m_Layer: 0
   m_Name: activator (109)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6855,7 +6855,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &991521638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6868,7 +6868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &991521639
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7049,7 +7049,7 @@ GameObject:
   - component: {fileID: 1007969175}
   m_Layer: 0
   m_Name: activator (5)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7130,7 +7130,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1007969177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7143,7 +7143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1007969178
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7660,7 +7660,7 @@ GameObject:
   - component: {fileID: 1043526782}
   m_Layer: 0
   m_Name: activator (68)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7741,7 +7741,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1043526784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7822,7 +7822,7 @@ GameObject:
   - component: {fileID: 1123593814}
   m_Layer: 0
   m_Name: activator (38)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7903,7 +7903,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1123593816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7984,7 +7984,7 @@ GameObject:
   - component: {fileID: 1154628117}
   m_Layer: 0
   m_Name: activator (69)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8065,7 +8065,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1154628119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8146,7 +8146,7 @@ GameObject:
   - component: {fileID: 1157123660}
   m_Layer: 0
   m_Name: activator (110)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8227,7 +8227,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1157123662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8240,7 +8240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1157123663
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8308,7 +8308,7 @@ GameObject:
   - component: {fileID: 1189388706}
   m_Layer: 0
   m_Name: activator (33)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8389,7 +8389,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1189388708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8402,7 +8402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &1189388709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8520,7 +8520,7 @@ GameObject:
   - component: {fileID: 1213443099}
   m_Layer: 0
   m_Name: activator (152)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8601,7 +8601,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1213443101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8682,7 +8682,7 @@ GameObject:
   - component: {fileID: 1217714744}
   m_Layer: 0
   m_Name: activator (111)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8763,7 +8763,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1217714746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8776,7 +8776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1217714747
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8844,7 +8844,7 @@ GameObject:
   - component: {fileID: 1218836320}
   m_Layer: 0
   m_Name: activator (107)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8925,7 +8925,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1218836322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8938,7 +8938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &1218836323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9006,7 +9006,7 @@ GameObject:
   - component: {fileID: 1239637788}
   m_Layer: 0
   m_Name: activator (55)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9087,7 +9087,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1239637790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9289,7 +9289,7 @@ GameObject:
   - component: {fileID: 1281594472}
   m_Layer: 0
   m_Name: activator (79)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9370,7 +9370,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1281594474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9383,7 +9383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &1281594475
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9451,7 +9451,7 @@ GameObject:
   - component: {fileID: 1292975894}
   m_Layer: 0
   m_Name: activator (99)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9532,7 +9532,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1292975896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9545,7 +9545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1292975897
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9613,7 +9613,7 @@ GameObject:
   - component: {fileID: 1295144570}
   m_Layer: 0
   m_Name: activator (142)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9694,7 +9694,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1295144572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9775,7 +9775,7 @@ GameObject:
   - component: {fileID: 1307185068}
   m_Layer: 0
   m_Name: activator (39)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9856,7 +9856,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1307185070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9937,7 +9937,7 @@ GameObject:
   - component: {fileID: 1307589981}
   m_Layer: 0
   m_Name: activator (6)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10018,7 +10018,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1307589983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10031,7 +10031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1307589984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10099,7 +10099,7 @@ GameObject:
   - component: {fileID: 1314037151}
   m_Layer: 0
   m_Name: activator (96)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10180,7 +10180,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1314037153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10366,7 +10366,7 @@ GameObject:
   - component: {fileID: 1321674108}
   m_Layer: 0
   m_Name: activator (77)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10447,7 +10447,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1321674110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10528,7 +10528,7 @@ GameObject:
   - component: {fileID: 1326905411}
   m_Layer: 0
   m_Name: activator (74)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10609,7 +10609,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1326905413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10622,7 +10622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1326905414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10784,7 +10784,7 @@ GameObject:
   - component: {fileID: 1411661215}
   m_Layer: 0
   m_Name: activator (61)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10865,7 +10865,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1411661217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10878,7 +10878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &1411661218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10946,7 +10946,7 @@ GameObject:
   - component: {fileID: 1424259849}
   m_Layer: 0
   m_Name: activator (53)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11027,7 +11027,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1424259851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11040,7 +11040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1424259852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11108,7 +11108,7 @@ GameObject:
   - component: {fileID: 1443182736}
   m_Layer: 0
   m_Name: activator (4)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11189,7 +11189,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1443182738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11202,7 +11202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1443182739
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11270,7 +11270,7 @@ GameObject:
   - component: {fileID: 1456730018}
   m_Layer: 0
   m_Name: activator (28)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11351,7 +11351,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1456730020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11364,7 +11364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1456730021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11524,7 +11524,7 @@ GameObject:
   - component: {fileID: 1491530238}
   m_Layer: 0
   m_Name: activator (2)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11605,7 +11605,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1491530240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11686,7 +11686,7 @@ GameObject:
   - component: {fileID: 1503318391}
   m_Layer: 0
   m_Name: activator (84)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11767,7 +11767,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1503318393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11848,7 +11848,7 @@ GameObject:
   - component: {fileID: 1514342546}
   m_Layer: 0
   m_Name: activator (27)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11929,7 +11929,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1514342548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11942,7 +11942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1514342549
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12010,7 +12010,7 @@ GameObject:
   - component: {fileID: 1522602096}
   m_Layer: 0
   m_Name: activator (148)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12091,7 +12091,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1522602098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12104,7 +12104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &1522602099
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12172,7 +12172,7 @@ GameObject:
   - component: {fileID: 1531687472}
   m_Layer: 0
   m_Name: activator (106)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12253,7 +12253,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1531687474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12334,7 +12334,7 @@ GameObject:
   - component: {fileID: 1537630372}
   m_Layer: 0
   m_Name: activator (45)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12415,7 +12415,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1537630374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12428,7 +12428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1537630375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12496,7 +12496,7 @@ GameObject:
   - component: {fileID: 1566711357}
   m_Layer: 0
   m_Name: activator (75)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12577,7 +12577,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1566711359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12590,7 +12590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1566711360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12658,7 +12658,7 @@ GameObject:
   - component: {fileID: 1620382516}
   m_Layer: 0
   m_Name: activator (132)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12739,7 +12739,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1620382518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12752,7 +12752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1620382519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12820,7 +12820,7 @@ GameObject:
   - component: {fileID: 1631106172}
   m_Layer: 0
   m_Name: activator (48)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12901,7 +12901,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1631106174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12982,7 +12982,7 @@ GameObject:
   - component: {fileID: 1639534196}
   m_Layer: 0
   m_Name: activator (130)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13063,7 +13063,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1639534198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13076,7 +13076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1639534199
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13392,7 +13392,7 @@ GameObject:
   - component: {fileID: 1712332114}
   m_Layer: 0
   m_Name: activator (30)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13473,7 +13473,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1712332116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13622,7 +13622,7 @@ GameObject:
   - component: {fileID: 1749772895}
   m_Layer: 0
   m_Name: activator (103)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13703,7 +13703,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1749772897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13716,7 +13716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1749772898
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13784,7 +13784,7 @@ GameObject:
   - component: {fileID: 1787033951}
   m_Layer: 0
   m_Name: activator (101)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13865,7 +13865,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1787033953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13878,7 +13878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1787033954
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13946,7 +13946,7 @@ GameObject:
   - component: {fileID: 1789594619}
   m_Layer: 0
   m_Name: activator (128)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14027,7 +14027,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1789594621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14040,7 +14040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1789594622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14108,7 +14108,7 @@ GameObject:
   - component: {fileID: 1795326870}
   m_Layer: 0
   m_Name: activator (113)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14189,7 +14189,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1795326872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14362,7 +14362,7 @@ GameObject:
   - component: {fileID: 1800268718}
   m_Layer: 0
   m_Name: activator (105)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14443,7 +14443,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1800268720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14456,7 +14456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1800268721
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14524,7 +14524,7 @@ GameObject:
   - component: {fileID: 1801831685}
   m_Layer: 0
   m_Name: activator (71)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14605,7 +14605,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1801831687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14618,7 +14618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1801831688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14686,7 +14686,7 @@ GameObject:
   - component: {fileID: 1838299370}
   m_Layer: 0
   m_Name: activator (97)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14767,7 +14767,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1838299372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14848,7 +14848,7 @@ GameObject:
   - component: {fileID: 1847033786}
   m_Layer: 0
   m_Name: activator (102)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14929,7 +14929,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1847033788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14942,7 +14942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1847033789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15010,7 +15010,7 @@ GameObject:
   - component: {fileID: 1852292111}
   m_Layer: 0
   m_Name: activator (65)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15091,7 +15091,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1852292113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15172,7 +15172,7 @@ GameObject:
   - component: {fileID: 1853146866}
   m_Layer: 0
   m_Name: activator (147)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15253,7 +15253,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1853146868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15266,7 +15266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &1853146869
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15350,7 +15350,7 @@ GameObject:
   - component: {fileID: 1903977311}
   m_Layer: 0
   m_Name: activator (78)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15431,7 +15431,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1903977313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15444,7 +15444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 106
 --- !u!212 &1903977314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15512,7 +15512,7 @@ GameObject:
   - component: {fileID: 1914633099}
   m_Layer: 0
   m_Name: activator (46)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15593,7 +15593,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1914633101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15606,7 +15606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1914633102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15674,7 +15674,7 @@ GameObject:
   - component: {fileID: 1932495331}
   m_Layer: 0
   m_Name: activator (44)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15755,7 +15755,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1932495333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15768,7 +15768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &1932495334
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15836,7 +15836,7 @@ GameObject:
   - component: {fileID: 1945720132}
   m_Layer: 0
   m_Name: activator (41)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15917,7 +15917,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &1945720134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15930,7 +15930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 103
 --- !u!212 &1945720135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15998,7 +15998,7 @@ GameObject:
   - component: {fileID: 2061750074}
   m_Layer: 0
   m_Name: activator (125)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16079,7 +16079,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &2061750076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16160,7 +16160,7 @@ GameObject:
   - component: {fileID: 2062658914}
   m_Layer: 0
   m_Name: activator (52)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16241,7 +16241,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &2062658916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16254,7 +16254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &2062658917
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16322,7 +16322,7 @@ GameObject:
   - component: {fileID: 2064818190}
   m_Layer: 0
   m_Name: activator (37)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16403,7 +16403,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &2064818192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16484,7 +16484,7 @@ GameObject:
   - component: {fileID: 2067428198}
   m_Layer: 0
   m_Name: activator (67)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16565,7 +16565,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &2067428200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16646,7 +16646,7 @@ GameObject:
   - component: {fileID: 2081864287}
   m_Layer: 0
   m_Name: activator (40)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16727,7 +16727,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &2081864289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16808,7 +16808,7 @@ GameObject:
   - component: {fileID: 2099191661}
   m_Layer: 0
   m_Name: activator
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16847,7 +16847,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &2099191658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16970,7 +16970,7 @@ GameObject:
   - component: {fileID: 2117839630}
   m_Layer: 0
   m_Name: activator (100)
-  m_TagString: note
+  m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17051,7 +17051,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.13
+  m_Radius: 5.61
 --- !u!114 &2117839632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17064,7 +17064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 104
 --- !u!212 &2117839633
 SpriteRenderer:
   m_ObjectHideFlags: 0
