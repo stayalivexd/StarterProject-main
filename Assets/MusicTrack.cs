@@ -5,26 +5,41 @@ using UnityEngine;
 public class MusicTrack : MonoBehaviour
 {
     public List <MusicNote> musicNotes;
+    Transform[] notes;
     public float bpm;
+    public float duration;
 
     [SerializeField] private AudioClip[] noteSounds;
 
     public bool isPlaying;
     public float currentTime;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        //UpdateNotes();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        UpdateNotes();
+
+        duration = musicNotes[musicNotes.Count - 1].timing;
+
         if (isPlaying)
         {
             currentTime += Time.deltaTime * bpm / 60;
+        }       
+    }
+
+    public void UpdateNotes()
+    {
+        notes = GetComponentsInChildren<Transform>();
+        musicNotes.Clear();
+        for (int i = 0; i < notes.Length; i++)
+        {
+            musicNotes.Add(notes[i].GetComponent<MusicNote>());
         }
+        musicNotes.Remove(musicNotes[0]);
     }
 
     public void Play()

@@ -58,6 +58,7 @@ public class MVPInputChords : MonoBehaviour
         horizontalInputLastFrame = horizontalInput;
 
         
+        /*
         if (Input.GetMouseButtonDown(0))
         {
             notes[chord].PlayNote();
@@ -69,6 +70,7 @@ public class MVPInputChords : MonoBehaviour
                 currentSource = 0;
             }
         }
+        */
         
     }
 
