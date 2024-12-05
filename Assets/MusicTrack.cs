@@ -6,13 +6,15 @@ public class MusicTrack : MonoBehaviour
 {
     public List <MusicNote> musicNotes;
     Transform[] notes;
-    public float bpm;
+    //public float bpm;
     public float duration;
 
-    [SerializeField] private AudioClip[] noteSounds;
+    public AudioClip[] noteSounds;
 
-    public bool isPlaying;
-    public float currentTime;
+    public float startTime;
+
+    //public bool isPlaying;
+    //public float currentTime;
 
     private void Start()
     {
@@ -23,12 +25,7 @@ public class MusicTrack : MonoBehaviour
     {
         UpdateNotes();
 
-        duration = musicNotes[musicNotes.Count - 1].timing;
-
-        if (isPlaying)
-        {
-            currentTime += Time.deltaTime * bpm / 60;
-        }       
+        duration = musicNotes[musicNotes.Count - 1].timing;   
     }
 
     public void UpdateNotes()
@@ -42,6 +39,7 @@ public class MusicTrack : MonoBehaviour
         musicNotes.Remove(musicNotes[0]);
     }
 
+    /*
     public void Play()
     {
         isPlaying =! isPlaying;
@@ -58,4 +56,5 @@ public class MusicTrack : MonoBehaviour
     {
         currentTime = time;
     }
+    */
 }

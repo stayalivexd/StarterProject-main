@@ -33,19 +33,22 @@ public class MusicNote : MonoBehaviour
 
         rectTransform.anchoredPosition = new Vector3((uiTrackWidth * -0.5f) + (uiTrackWidth * (timing / track.duration)),
             (uiTrackHeight * -0.5f) + (uiTrackHeight * chord / 3));
+        
+        audioSource.clip = track.noteSounds[chord];
     }
 
-    public void PlayNote(AudioClip note, float time)
+    public void PlayNote()
     {
-        if (track.isPlaying)
+        if (MusicPlayer.instance.isPlaying)
         {
-            audioSource.clip = note;
-            Invoke("Sound", timing - time);
+            audioSource.Play();
         }
     }
 
+    /*
     void Sound()
     {
         audioSource.Play();
     }
+    */
 }
