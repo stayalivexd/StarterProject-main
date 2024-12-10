@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IWP/PracticeMode.unity
     guid: 704f2aaa3707e6946898310aac11fea5
+  - enabled: 1
+    path: Assets/Scenes/Nico UI HighFI/Main Menu.unity
+    guid: 3db0732cd72e44d21b8a309b798d3f1f
+  - enabled: 1
+    path: Assets/Scenes/Nico UI HighFI/Practice Mode Instruments.unity
+    guid: 603e2b49dbe2145f9a33867e735d465e
+  - enabled: 1
+    path: Assets/Scenes/Nico UI HighFI/Practice Mode Songs.unity
+    guid: 36da95c8345ac41e9bbdbbc17e21866c
+  - enabled: 1
+    path: Assets/Scenes/Nico UI HighFI/Composing Mode.unity
+    guid: 357332211fb7a45ccb5689c1a5561cf3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a119f6f587e88314ebd5072fee8a96d6, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74cf2e0dc6053ba449bfb92ecf215db6, type: 2}
