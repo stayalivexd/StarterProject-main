@@ -11,11 +11,15 @@ public class MusicPlayer : MonoBehaviour
     public float currentTime;
     public float bpm;
     public float duration;
+    float length;
 
     public List<MusicTrack> tracks;
     List<float> trackDurations;
 
     private Slider slider;
+
+    [SerializeField] private InputField bpmInput;
+    [SerializeField] private InputField lengthInput;
 
     private void Awake()
     {
@@ -25,6 +29,9 @@ public class MusicPlayer : MonoBehaviour
     private void Start()
     {
         slider = GetComponent<Slider>();
+        bpmInput.text = bpm.ToString();
+        length = duration / (bpm / 60);
+        lengthInput.text = length.ToString();
     }
 
     void Update()
@@ -39,6 +46,17 @@ public class MusicPlayer : MonoBehaviour
             currentTime = slider.value * duration;
         }
 
+        bpm = float.Parse(bpmInput.text);
+        duration = float.Parse(lengthInput.text);
+
+        if (currentTime >= duration || slider.value == 1)
+        {
+            isPlaying = false;
+            currentTime = 0;
+            slider.value = 0;
+        }
+
+        /*
         trackDurations.Clear();
         for (int i = 0; i < tracks.Count; i++)
         {
@@ -46,6 +64,7 @@ public class MusicPlayer : MonoBehaviour
             trackDurations[i] = tracks[i].duration;
         }
         duration = Mathf.Max(trackDurations.ToArray());
+        */
     }
 
     public void Play()
