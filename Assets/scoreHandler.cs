@@ -5,6 +5,8 @@ using TMPro;
 
 public class scoreHandler : MonoBehaviour
 {
+
+    public AudioSource audioSource;
     public AudioClip note;
     public KeyCode key;
     bool isTriggered = false;
@@ -19,6 +21,7 @@ public class scoreHandler : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         isTriggered = true;
+     
     }
     // Update is called once per frame
     void Update()
@@ -28,6 +31,7 @@ public class scoreHandler : MonoBehaviour
         {
             ScoreTracker.instance.score++;
             isTriggered = false;
+            audioSource.Play(); 
 
         }
 
