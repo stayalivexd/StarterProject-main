@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 66949551}
   - component: {fileID: 66949550}
   m_Layer: 0
-  m_Name: activator (83)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,7 +152,7 @@ Transform:
   m_GameObject: {fileID: 66949548}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 4762.9995, z: 0}
+  m_LocalPosition: {x: -135, y: 4763, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &66949553
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 93997462}
   - component: {fileID: 93997461}
   m_Layer: 0
-  m_Name: activator (29)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -427,7 +427,7 @@ Transform:
   m_GameObject: {fileID: 93997459}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 812, z: 0}
+  m_LocalPosition: {x: -45, y: 812.00006, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &93997464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -560,37 +560,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &107497819
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 107497820}
-  m_Layer: 0
-  m_Name: button-153683_1280 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &107497820
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107497819}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &133197498
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +574,7 @@ GameObject:
   - component: {fileID: 133197501}
   - component: {fileID: 133197500}
   m_Layer: 0
-  m_Name: activator (62)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,7 +589,7 @@ Transform:
   m_GameObject: {fileID: 133197498}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135, y: 3210, z: 0}
+  m_LocalPosition: {x: 135, y: 3210.0005, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -700,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &133197503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -767,7 +736,7 @@ GameObject:
   - component: {fileID: 150557126}
   - component: {fileID: 150557125}
   m_Layer: 0
-  m_Name: activator (7)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -862,7 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &150557128
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -929,7 +898,7 @@ GameObject:
   - component: {fileID: 208269194}
   - component: {fileID: 208269193}
   m_Layer: 0
-  m_Name: activator (133)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1024,7 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &208269196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1089,6 +1058,7 @@ GameObject:
   - component: {fileID: 213927852}
   - component: {fileID: 213927851}
   - component: {fileID: 213927850}
+  - component: {fileID: 213927853}
   m_Layer: 0
   m_Name: circle-font-button-orange-free-png (3)
   m_TagString: Untagged
@@ -1225,6 +1195,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &213927853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213927848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830737b0296ff8240a941343708691b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: {fileID: 0}
+  key: 102
+  listenToTag: Note
 --- !u!1 &223361419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,7 +1224,7 @@ GameObject:
   - component: {fileID: 223361422}
   - component: {fileID: 223361421}
   m_Layer: 0
-  m_Name: activator (31)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1334,7 +1319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &223361424
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1401,7 +1386,7 @@ GameObject:
   - component: {fileID: 226217007}
   - component: {fileID: 226217006}
   m_Layer: 0
-  m_Name: activator (32)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1416,7 +1401,7 @@ Transform:
   m_GameObject: {fileID: 226217004}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135, y: 1289, z: 0}
+  m_LocalPosition: {x: 135, y: 1289.0001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1496,7 +1481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &226217009
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1563,7 +1548,7 @@ GameObject:
   - component: {fileID: 233995082}
   - component: {fileID: 233995081}
   m_Layer: 0
-  m_Name: activator (76)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1658,7 +1643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &233995084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1725,7 +1710,7 @@ GameObject:
   - component: {fileID: 254232314}
   - component: {fileID: 254232313}
   m_Layer: 0
-  m_Name: activator (149)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1820,7 +1805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &254232316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1887,7 +1872,7 @@ GameObject:
   - component: {fileID: 263414773}
   - component: {fileID: 263414772}
   m_Layer: 0
-  m_Name: activator (104)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1982,7 +1967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &263414775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2049,7 +2034,7 @@ GameObject:
   - component: {fileID: 263424456}
   - component: {fileID: 263424455}
   m_Layer: 0
-  m_Name: activator (127)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2064,7 +2049,7 @@ Transform:
   m_GameObject: {fileID: 263424453}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 7565.0005, z: 0}
+  m_LocalPosition: {x: -135, y: 7565.0015, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2144,7 +2129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &263424458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2211,7 +2196,7 @@ GameObject:
   - component: {fileID: 276500973}
   - component: {fileID: 276500972}
   m_Layer: 0
-  m_Name: activator (135)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2306,7 +2291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &276500975
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2371,6 +2356,7 @@ GameObject:
   - component: {fileID: 279570744}
   - component: {fileID: 279570743}
   - component: {fileID: 279570742}
+  - component: {fileID: 279570745}
   m_Layer: 0
   m_Name: circle-font-button-orange-free-png (1)
   m_TagString: Untagged
@@ -2507,6 +2493,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &279570745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279570740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830737b0296ff8240a941343708691b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: {fileID: 0}
+  key: 115
+  listenToTag: Note
 --- !u!1 &323611870
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,7 +2522,7 @@ GameObject:
   - component: {fileID: 323611873}
   - component: {fileID: 323611872}
   m_Layer: 0
-  m_Name: activator (70)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2616,7 +2617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &323611875
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2683,7 +2684,7 @@ GameObject:
   - component: {fileID: 338697415}
   - component: {fileID: 338697414}
   m_Layer: 0
-  m_Name: activator (3)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2778,7 +2779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &338697417
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2845,7 +2846,7 @@ GameObject:
   - component: {fileID: 361039086}
   - component: {fileID: 361039085}
   m_Layer: 0
-  m_Name: activator (82)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2940,7 +2941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &361039088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2993,6 +2994,112 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &373961675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373961678}
+  - component: {fileID: 373961677}
+  - component: {fileID: 373961676}
+  m_Layer: 0
+  m_Name: 2204_w017_n001_449b_p15_449_3 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &373961676
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373961675}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc2825889e01d8a41a4ef603681ef13f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &373961677
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373961675}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 1584975433, guid: 07bb31f1c033435478c5a59f0405f3e3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 1
+  m_Size: {x: 31.558313, y: 29.449196}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &373961678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373961675}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -253.68362, y: -2, z: -400.6233}
+  m_LocalScale: {x: 4.4513707, y: 4.4513707, z: 4.4513707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1664898316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &414081969
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,7 +3114,7 @@ GameObject:
   - component: {fileID: 414081972}
   - component: {fileID: 414081971}
   m_Layer: 0
-  m_Name: activator (98)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3022,7 +3129,7 @@ Transform:
   m_GameObject: {fileID: 414081969}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 5685, z: 0}
+  m_LocalPosition: {x: -135, y: 5685.0005, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3102,7 +3209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &414081974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3155,37 +3262,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &424097930
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 424097931}
-  m_Layer: 0
-  m_Name: button-153683_1280
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &424097931
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424097930}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &464688614
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,7 +3276,7 @@ GameObject:
   - component: {fileID: 464688617}
   - component: {fileID: 464688616}
   m_Layer: 0
-  m_Name: activator (42)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3215,7 +3291,7 @@ Transform:
   m_GameObject: {fileID: 464688614}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45, y: 2038.0001, z: 0}
+  m_LocalPosition: {x: 45, y: 2038.0004, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3295,7 +3371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &464688619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3362,7 +3438,7 @@ GameObject:
   - component: {fileID: 505305769}
   - component: {fileID: 505305768}
   m_Layer: 0
-  m_Name: activator (140)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3457,7 +3533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &505305771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3524,7 +3600,7 @@ GameObject:
   - component: {fileID: 511047445}
   - component: {fileID: 511047444}
   m_Layer: 0
-  m_Name: activator (43)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3619,7 +3695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &511047447
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3780,7 +3856,7 @@ GameObject:
   - component: {fileID: 544475847}
   - component: {fileID: 544475846}
   m_Layer: 0
-  m_Name: activator (108)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3875,7 +3951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &544475849
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3942,7 +4018,7 @@ GameObject:
   - component: {fileID: 586125336}
   - component: {fileID: 586125335}
   m_Layer: 0
-  m_Name: activator (129)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4037,7 +4113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &586125338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4104,7 +4180,7 @@ GameObject:
   - component: {fileID: 595333463}
   - component: {fileID: 595333462}
   m_Layer: 0
-  m_Name: activator (80)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4119,7 +4195,7 @@ Transform:
   m_GameObject: {fileID: 595333460}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135, y: 5107.9995, z: 0}
+  m_LocalPosition: {x: 135, y: 5108, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4199,7 +4275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &595333465
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4266,7 +4342,7 @@ GameObject:
   - component: {fileID: 609389730}
   - component: {fileID: 609389729}
   m_Layer: 0
-  m_Name: activator (126)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4281,7 +4357,7 @@ Transform:
   m_GameObject: {fileID: 609389727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 7484.0005, z: 0}
+  m_LocalPosition: {x: -135, y: 7484.0015, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4361,7 +4437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &609389732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4428,7 +4504,7 @@ GameObject:
   - component: {fileID: 649827372}
   - component: {fileID: 649827371}
   m_Layer: 0
-  m_Name: activator (72)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4523,7 +4599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &649827374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4590,7 +4666,7 @@ GameObject:
   - component: {fileID: 667508676}
   - component: {fileID: 667508675}
   m_Layer: 0
-  m_Name: activator (47)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4605,7 +4681,7 @@ Transform:
   m_GameObject: {fileID: 667508673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 2658, z: 0}
+  m_LocalPosition: {x: -45, y: 2658.0002, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4685,7 +4761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &667508678
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4752,7 +4828,7 @@ GameObject:
   - component: {fileID: 672687730}
   - component: {fileID: 672687729}
   m_Layer: 0
-  m_Name: activator (34)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4847,7 +4923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &672687732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4914,7 +4990,7 @@ GameObject:
   - component: {fileID: 682211982}
   - component: {fileID: 682211981}
   m_Layer: 0
-  m_Name: activator (131)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4929,7 +5005,7 @@ Transform:
   m_GameObject: {fileID: 682211979}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45, y: 7972.0005, z: 0}
+  m_LocalPosition: {x: 45, y: 7972.0015, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5009,7 +5085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &682211984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5078,6 +5154,142 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &700018079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 700018080}
+  - component: {fileID: 700018082}
+  - component: {fileID: 700018081}
+  m_Layer: 5
+  m_Name: number
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &700018080
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700018079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1664898316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -415.97998, y: -174.5}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &700018081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700018079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '0
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &700018082
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700018079}
+  m_CullTransparentMesh: 1
 --- !u!1 &744651988
 GameObject:
   m_ObjectHideFlags: 0
@@ -5092,7 +5304,7 @@ GameObject:
   - component: {fileID: 744651991}
   - component: {fileID: 744651990}
   m_Layer: 0
-  m_Name: activator (81)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5187,7 +5399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &744651993
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5343,7 +5555,7 @@ GameObject:
   - component: {fileID: 798357450}
   - component: {fileID: 798357449}
   m_Layer: 0
-  m_Name: activator (35)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5438,7 +5650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &798357452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5505,7 +5717,7 @@ GameObject:
   - component: {fileID: 799029497}
   - component: {fileID: 799029496}
   m_Layer: 0
-  m_Name: activator (60)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5600,7 +5812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &799029499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5667,7 +5879,7 @@ GameObject:
   - component: {fileID: 832506055}
   - component: {fileID: 832506054}
   m_Layer: 0
-  m_Name: activator (134)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5762,7 +5974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &832506057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5829,7 +6041,7 @@ GameObject:
   - component: {fileID: 849295716}
   - component: {fileID: 849295715}
   m_Layer: 0
-  m_Name: activator (36)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5844,7 +6056,7 @@ Transform:
   m_GameObject: {fileID: 849295713}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 1019, z: 0}
+  m_LocalPosition: {x: -135, y: 1019.00006, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5924,7 +6136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &849295718
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5991,7 +6203,7 @@ GameObject:
   - component: {fileID: 940435503}
   - component: {fileID: 940435502}
   m_Layer: 0
-  m_Name: activator (73)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6086,7 +6298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &940435505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6153,7 +6365,7 @@ GameObject:
   - component: {fileID: 952337403}
   - component: {fileID: 952337402}
   m_Layer: 0
-  m_Name: activator (150)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6248,7 +6460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &952337405
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6313,6 +6525,7 @@ GameObject:
   - component: {fileID: 956451712}
   - component: {fileID: 956451711}
   - component: {fileID: 956451710}
+  - component: {fileID: 956451713}
   m_Layer: 0
   m_Name: circle-font-button-orange-free-png (2)
   m_TagString: Untagged
@@ -6449,6 +6662,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &956451713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956451708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830737b0296ff8240a941343708691b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: {fileID: 0}
+  key: 100
+  listenToTag: Note
 --- !u!1 &958351092
 GameObject:
   m_ObjectHideFlags: 0
@@ -6461,6 +6689,7 @@ GameObject:
   - component: {fileID: 958351095}
   - component: {fileID: 958351094}
   - component: {fileID: 958351093}
+  - component: {fileID: 958351097}
   m_Layer: 0
   m_Name: circle-font-button-orange-free-png
   m_TagString: Untagged
@@ -6597,6 +6826,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1664898316}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958351097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958351092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830737b0296ff8240a941343708691b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: {fileID: 0}
+  key: 97
+  listenToTag: Note
 --- !u!1 &976500821
 GameObject:
   m_ObjectHideFlags: 0
@@ -6611,7 +6855,7 @@ GameObject:
   - component: {fileID: 976500824}
   - component: {fileID: 976500823}
   m_Layer: 0
-  m_Name: activator (112)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6626,7 +6870,7 @@ Transform:
   m_GameObject: {fileID: 976500821}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 6652, z: 0}
+  m_LocalPosition: {x: -135, y: 6652.001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6706,7 +6950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &976500826
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6773,7 +7017,7 @@ GameObject:
   - component: {fileID: 991521637}
   - component: {fileID: 991521636}
   m_Layer: 0
-  m_Name: activator (109)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6868,7 +7112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &991521639
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7048,7 +7292,7 @@ GameObject:
   - component: {fileID: 1007969176}
   - component: {fileID: 1007969175}
   m_Layer: 0
-  m_Name: activator (5)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7143,7 +7387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1007969178
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7659,7 +7903,7 @@ GameObject:
   - component: {fileID: 1043526783}
   - component: {fileID: 1043526782}
   m_Layer: 0
-  m_Name: activator (68)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7754,7 +7998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1043526785
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7821,7 +8065,7 @@ GameObject:
   - component: {fileID: 1123593815}
   - component: {fileID: 1123593814}
   m_Layer: 0
-  m_Name: activator (38)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7836,7 +8080,7 @@ Transform:
   m_GameObject: {fileID: 1123593812}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 1741.0001, z: 0}
+  m_LocalPosition: {x: -135, y: 1741.0002, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7916,7 +8160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1123593817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7983,7 +8227,7 @@ GameObject:
   - component: {fileID: 1154628118}
   - component: {fileID: 1154628117}
   m_Layer: 0
-  m_Name: activator (69)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8078,7 +8322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1154628120
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8145,7 +8389,7 @@ GameObject:
   - component: {fileID: 1157123661}
   - component: {fileID: 1157123660}
   m_Layer: 0
-  m_Name: activator (110)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8240,7 +8484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1157123663
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8307,7 +8551,7 @@ GameObject:
   - component: {fileID: 1189388707}
   - component: {fileID: 1189388706}
   m_Layer: 0
-  m_Name: activator (33)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8322,7 +8566,7 @@ Transform:
   m_GameObject: {fileID: 1189388704}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135, y: 1364, z: 0}
+  m_LocalPosition: {x: 135, y: 1364.0001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8402,7 +8646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &1189388709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8519,7 +8763,7 @@ GameObject:
   - component: {fileID: 1213443100}
   - component: {fileID: 1213443099}
   m_Layer: 0
-  m_Name: activator (152)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8614,7 +8858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1213443102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8681,7 +8925,7 @@ GameObject:
   - component: {fileID: 1217714745}
   - component: {fileID: 1217714744}
   m_Layer: 0
-  m_Name: activator (111)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8696,7 +8940,7 @@ Transform:
   m_GameObject: {fileID: 1217714742}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 7221, z: 0}
+  m_LocalPosition: {x: -45, y: 7221.0005, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8776,7 +9020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1217714747
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8843,7 +9087,7 @@ GameObject:
   - component: {fileID: 1218836321}
   - component: {fileID: 1218836320}
   m_Layer: 0
-  m_Name: activator (107)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8938,7 +9182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &1218836323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9005,7 +9249,7 @@ GameObject:
   - component: {fileID: 1239637789}
   - component: {fileID: 1239637788}
   m_Layer: 0
-  m_Name: activator (55)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9100,7 +9344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1239637791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9288,7 +9532,7 @@ GameObject:
   - component: {fileID: 1281594473}
   - component: {fileID: 1281594472}
   m_Layer: 0
-  m_Name: activator (79)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9303,7 +9547,7 @@ Transform:
   m_GameObject: {fileID: 1281594470}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135, y: 5032.9995, z: 0}
+  m_LocalPosition: {x: 135, y: 5033, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9383,7 +9627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &1281594475
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9450,7 +9694,7 @@ GameObject:
   - component: {fileID: 1292975895}
   - component: {fileID: 1292975894}
   m_Layer: 0
-  m_Name: activator (99)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9465,7 +9709,7 @@ Transform:
   m_GameObject: {fileID: 1292975892}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 5756, z: 0}
+  m_LocalPosition: {x: -45, y: 5756.0005, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9545,7 +9789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1292975897
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9612,7 +9856,7 @@ GameObject:
   - component: {fileID: 1295144571}
   - component: {fileID: 1295144570}
   m_Layer: 0
-  m_Name: activator (142)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9707,7 +9951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1295144573
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9774,7 +10018,7 @@ GameObject:
   - component: {fileID: 1307185069}
   - component: {fileID: 1307185068}
   m_Layer: 0
-  m_Name: activator (39)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9869,7 +10113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1307185071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9936,7 +10180,7 @@ GameObject:
   - component: {fileID: 1307589982}
   - component: {fileID: 1307589981}
   m_Layer: 0
-  m_Name: activator (6)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10031,7 +10275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1307589984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10098,7 +10342,7 @@ GameObject:
   - component: {fileID: 1314037152}
   - component: {fileID: 1314037151}
   m_Layer: 0
-  m_Name: activator (96)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10193,7 +10437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1314037154
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10365,7 +10609,7 @@ GameObject:
   - component: {fileID: 1321674109}
   - component: {fileID: 1321674108}
   m_Layer: 0
-  m_Name: activator (77)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10460,7 +10704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1321674111
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10527,7 +10771,7 @@ GameObject:
   - component: {fileID: 1326905412}
   - component: {fileID: 1326905411}
   m_Layer: 0
-  m_Name: activator (74)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10622,7 +10866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1326905414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10783,7 +11027,7 @@ GameObject:
   - component: {fileID: 1411661216}
   - component: {fileID: 1411661215}
   m_Layer: 0
-  m_Name: activator (61)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10878,7 +11122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &1411661218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10945,7 +11189,7 @@ GameObject:
   - component: {fileID: 1424259850}
   - component: {fileID: 1424259849}
   m_Layer: 0
-  m_Name: activator (53)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11040,7 +11284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1424259852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11107,7 +11351,7 @@ GameObject:
   - component: {fileID: 1443182737}
   - component: {fileID: 1443182736}
   m_Layer: 0
-  m_Name: activator (4)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11202,7 +11446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1443182739
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11269,7 +11513,7 @@ GameObject:
   - component: {fileID: 1456730019}
   - component: {fileID: 1456730018}
   m_Layer: 0
-  m_Name: activator (28)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11284,7 +11528,7 @@ Transform:
   m_GameObject: {fileID: 1456730016}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 737, z: 0}
+  m_LocalPosition: {x: -45, y: 737.0001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -11364,7 +11608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1456730021
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11523,7 +11767,7 @@ GameObject:
   - component: {fileID: 1491530239}
   - component: {fileID: 1491530238}
   m_Layer: 0
-  m_Name: activator (2)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11618,7 +11862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1491530241
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11671,6 +11915,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1495593953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495593955}
+  - component: {fileID: 1495593954}
+  m_Layer: 0
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1495593954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495593953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cb758ec7217e64ca9ed571dc5f454e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreTMP: {fileID: 700018081}
+--- !u!4 &1495593955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495593953}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2256312, y: -79.78776, z: 3776.1775}
+  m_LocalScale: {x: 4.4513707, y: 4.4513707, z: 4.4513707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1664898316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503318389
 GameObject:
   m_ObjectHideFlags: 0
@@ -11685,7 +11975,7 @@ GameObject:
   - component: {fileID: 1503318392}
   - component: {fileID: 1503318391}
   m_Layer: 0
-  m_Name: activator (84)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11780,7 +12070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1503318394
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11847,7 +12137,7 @@ GameObject:
   - component: {fileID: 1514342547}
   - component: {fileID: 1514342546}
   m_Layer: 0
-  m_Name: activator (27)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11942,7 +12232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1514342549
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12009,7 +12299,7 @@ GameObject:
   - component: {fileID: 1522602097}
   - component: {fileID: 1522602096}
   m_Layer: 0
-  m_Name: activator (148)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12104,7 +12394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &1522602099
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12171,7 +12461,7 @@ GameObject:
   - component: {fileID: 1531687473}
   - component: {fileID: 1531687472}
   m_Layer: 0
-  m_Name: activator (106)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12266,7 +12556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1531687475
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12333,7 +12623,7 @@ GameObject:
   - component: {fileID: 1537630373}
   - component: {fileID: 1537630372}
   m_Layer: 0
-  m_Name: activator (45)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12428,7 +12718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1537630375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12495,7 +12785,7 @@ GameObject:
   - component: {fileID: 1566711358}
   - component: {fileID: 1566711357}
   m_Layer: 0
-  m_Name: activator (75)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12590,7 +12880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1566711360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12657,7 +12947,7 @@ GameObject:
   - component: {fileID: 1620382517}
   - component: {fileID: 1620382516}
   m_Layer: 0
-  m_Name: activator (132)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12672,7 +12962,7 @@ Transform:
   m_GameObject: {fileID: 1620382514}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 8171.0005, z: 0}
+  m_LocalPosition: {x: -45, y: 8171, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -12752,7 +13042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1620382519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12819,7 +13109,7 @@ GameObject:
   - component: {fileID: 1631106173}
   - component: {fileID: 1631106172}
   m_Layer: 0
-  m_Name: activator (48)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12914,7 +13204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1631106175
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12981,7 +13271,7 @@ GameObject:
   - component: {fileID: 1639534197}
   - component: {fileID: 1639534196}
   m_Layer: 0
-  m_Name: activator (130)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12996,7 +13286,7 @@ Transform:
   m_GameObject: {fileID: 1639534194}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45, y: 7782.0005, z: 0}
+  m_LocalPosition: {x: 45, y: 7782.0015, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -13076,7 +13366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1639534199
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13157,7 +13447,6 @@ GameObject:
   - component: {fileID: 1664898315}
   - component: {fileID: 1664898314}
   - component: {fileID: 1664898313}
-  - component: {fileID: 1664898317}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -13223,7 +13512,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -13240,6 +13529,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 373961678}
   - {fileID: 1372947856}
   - {fileID: 1458945233}
   - {fileID: 958351096}
@@ -13322,8 +13612,8 @@ RectTransform:
   - {fileID: 254232312}
   - {fileID: 952337401}
   - {fileID: 1213443098}
-  - {fileID: 544475845}
   - {fileID: 991521635}
+  - {fileID: 544475845}
   - {fileID: 1157123659}
   - {fileID: 1217714743}
   - {fileID: 976500822}
@@ -13336,6 +13626,8 @@ RectTransform:
   - {fileID: 1411661214}
   - {fileID: 133197499}
   - {fileID: 1852292110}
+  - {fileID: 700018080}
+  - {fileID: 1495593955}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -13343,40 +13635,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!328 &1664898317
-VideoPlayer:
+--- !u!1 &1688055246
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664898312}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1688055248}
+  - component: {fileID: 1688055247}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1688055247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688055246}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a68f7119e0e9d894f95e460efff8578a, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
-  m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 0
+--- !u!4 &1688055248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688055246}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1712332112
 GameObject:
   m_ObjectHideFlags: 0
@@ -13391,7 +13694,7 @@ GameObject:
   - component: {fileID: 1712332115}
   - component: {fileID: 1712332114}
   m_Layer: 0
-  m_Name: activator (30)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13486,7 +13789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1712332117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13621,7 +13924,7 @@ GameObject:
   - component: {fileID: 1749772896}
   - component: {fileID: 1749772895}
   m_Layer: 0
-  m_Name: activator (103)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13636,7 +13939,7 @@ Transform:
   m_GameObject: {fileID: 1749772893}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 6291, z: 0}
+  m_LocalPosition: {x: -45, y: 6291.001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -13716,7 +14019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1749772898
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13783,7 +14086,7 @@ GameObject:
   - component: {fileID: 1787033952}
   - component: {fileID: 1787033951}
   m_Layer: 0
-  m_Name: activator (101)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13798,7 +14101,7 @@ Transform:
   m_GameObject: {fileID: 1787033949}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45, y: 5902, z: 0}
+  m_LocalPosition: {x: 45, y: 5902.001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -13878,7 +14181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1787033954
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13945,7 +14248,7 @@ GameObject:
   - component: {fileID: 1789594620}
   - component: {fileID: 1789594619}
   m_Layer: 0
-  m_Name: activator (128)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14040,7 +14343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1789594622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14107,7 +14410,7 @@ GameObject:
   - component: {fileID: 1795326871}
   - component: {fileID: 1795326870}
   m_Layer: 0
-  m_Name: activator (113)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14122,7 +14425,7 @@ Transform:
   m_GameObject: {fileID: 1795326868}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 6727, z: 0}
+  m_LocalPosition: {x: -135, y: 6727.001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -14202,7 +14505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1795326873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14361,7 +14664,7 @@ GameObject:
   - component: {fileID: 1800268719}
   - component: {fileID: 1800268718}
   m_Layer: 0
-  m_Name: activator (105)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14456,7 +14759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1800268721
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14523,7 +14826,7 @@ GameObject:
   - component: {fileID: 1801831686}
   - component: {fileID: 1801831685}
   m_Layer: 0
-  m_Name: activator (71)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14538,7 +14841,7 @@ Transform:
   m_GameObject: {fileID: 1801831683}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45, y: 3935.9998, z: 0}
+  m_LocalPosition: {x: 45, y: 3936, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -14618,7 +14921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1801831688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14685,7 +14988,7 @@ GameObject:
   - component: {fileID: 1838299371}
   - component: {fileID: 1838299370}
   m_Layer: 0
-  m_Name: activator (97)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14780,7 +15083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1838299373
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14847,7 +15150,7 @@ GameObject:
   - component: {fileID: 1847033787}
   - component: {fileID: 1847033786}
   m_Layer: 0
-  m_Name: activator (102)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14942,7 +15245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1847033789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15009,7 +15312,7 @@ GameObject:
   - component: {fileID: 1852292112}
   - component: {fileID: 1852292111}
   m_Layer: 0
-  m_Name: activator (65)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15024,7 +15327,7 @@ Transform:
   m_GameObject: {fileID: 1852292109}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 2865, z: 0}
+  m_LocalPosition: {x: -135, y: 2865.0002, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15104,7 +15407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &1852292114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15171,7 +15474,7 @@ GameObject:
   - component: {fileID: 1853146867}
   - component: {fileID: 1853146866}
   m_Layer: 0
-  m_Name: activator (147)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15266,7 +15569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &1853146869
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15349,7 +15652,7 @@ GameObject:
   - component: {fileID: 1903977312}
   - component: {fileID: 1903977311}
   m_Layer: 0
-  m_Name: activator (78)
+  m_Name: yellow
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15444,7 +15747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 102
 --- !u!212 &1903977314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15511,7 +15814,7 @@ GameObject:
   - component: {fileID: 1914633100}
   - component: {fileID: 1914633099}
   m_Layer: 0
-  m_Name: activator (46)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15526,7 +15829,7 @@ Transform:
   m_GameObject: {fileID: 1914633097}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 2583, z: 0}
+  m_LocalPosition: {x: -45, y: 2583.0002, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15606,7 +15909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1914633102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15673,7 +15976,7 @@ GameObject:
   - component: {fileID: 1932495332}
   - component: {fileID: 1932495331}
   m_Layer: 0
-  m_Name: activator (44)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15688,7 +15991,7 @@ Transform:
   m_GameObject: {fileID: 1932495329}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45, y: 2305, z: 0}
+  m_LocalPosition: {x: 45, y: 2305.0005, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15768,7 +16071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &1932495334
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15835,7 +16138,7 @@ GameObject:
   - component: {fileID: 1945720133}
   - component: {fileID: 1945720132}
   m_Layer: 0
-  m_Name: activator (41)
+  m_Name: white
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15850,7 +16153,7 @@ Transform:
   m_GameObject: {fileID: 1945720130}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45, y: 1969.0001, z: 0}
+  m_LocalPosition: {x: -45, y: 1969, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15930,7 +16233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 103
+  key: 115
 --- !u!212 &1945720135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15997,7 +16300,7 @@ GameObject:
   - component: {fileID: 2061750075}
   - component: {fileID: 2061750074}
   m_Layer: 0
-  m_Name: activator (125)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16012,7 +16315,7 @@ Transform:
   m_GameObject: {fileID: 2061750072}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 7408.0005, z: 0}
+  m_LocalPosition: {x: -135, y: 7408.001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16092,7 +16395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &2061750077
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16159,7 +16462,7 @@ GameObject:
   - component: {fileID: 2062658915}
   - component: {fileID: 2062658914}
   m_Layer: 0
-  m_Name: activator (52)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16254,7 +16557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &2062658917
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16321,7 +16624,7 @@ GameObject:
   - component: {fileID: 2064818191}
   - component: {fileID: 2064818190}
   m_Layer: 0
-  m_Name: activator (37)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16336,7 +16639,7 @@ Transform:
   m_GameObject: {fileID: 2064818188}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 1094, z: 0}
+  m_LocalPosition: {x: -135, y: 1094.0001, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16416,7 +16719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &2064818193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16483,7 +16786,7 @@ GameObject:
   - component: {fileID: 2067428199}
   - component: {fileID: 2067428198}
   m_Layer: 0
-  m_Name: activator (67)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16498,7 +16801,7 @@ Transform:
   m_GameObject: {fileID: 2067428196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 3638.9998, z: 0}
+  m_LocalPosition: {x: -135, y: 3639.0002, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16578,7 +16881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &2067428201
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16645,7 +16948,7 @@ GameObject:
   - component: {fileID: 2081864288}
   - component: {fileID: 2081864287}
   m_Layer: 0
-  m_Name: activator (40)
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16660,7 +16963,7 @@ Transform:
   m_GameObject: {fileID: 2081864285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135, y: 1898.0001, z: 0}
+  m_LocalPosition: {x: -135, y: 1898.0004, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16740,7 +17043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &2081864290
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16807,7 +17110,7 @@ GameObject:
   - component: {fileID: 2099191657}
   - component: {fileID: 2099191661}
   m_Layer: 0
-  m_Name: activator
+  m_Name: blue
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16860,7 +17163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 102
+  key: 97
 --- !u!212 &2099191659
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16969,7 +17272,7 @@ GameObject:
   - component: {fileID: 2117839631}
   - component: {fileID: 2117839630}
   m_Layer: 0
-  m_Name: activator (100)
+  m_Name: pink
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17064,7 +17367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c81f90f2833e840ae1645f61491ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 104
+  key: 100
 --- !u!212 &2117839633
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17122,11 +17425,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1795527779}
+  - {fileID: 1688055248}
   - {fileID: 535628632}
   - {fileID: 1664898316}
   - {fileID: 1716952866}
   - {fileID: 762976105}
   - {fileID: 1200194813}
   - {fileID: 1043105189}
-  - {fileID: 424097931}
-  - {fileID: 107497820}
