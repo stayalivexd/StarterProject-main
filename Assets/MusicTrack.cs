@@ -12,6 +12,7 @@ public class MusicTrack : MonoBehaviour
     public AudioClip[] noteSounds;
 
     public float startTime;
+    public GameObject notePrefab;
 
     //public bool isPlaying;
     //public float currentTime;
@@ -25,7 +26,8 @@ public class MusicTrack : MonoBehaviour
     {
         UpdateNotes();
 
-        duration = musicNotes[musicNotes.Count - 1].timing;   
+        //duration = musicNotes[musicNotes.Count - 1].timing;
+        duration = MusicPlayer.instance.duration;
     }
 
     public void UpdateNotes()
@@ -37,6 +39,27 @@ public class MusicTrack : MonoBehaviour
             musicNotes.Add(notes[i].GetComponent<MusicNote>());
         }
         musicNotes.Remove(musicNotes[0]);
+    }
+
+    public void AddNote(int chord)
+    {
+        MusicNote newNote = Instantiate(notePrefab, transform).GetComponent<MusicNote>();
+        newNote.chord = chord;
+        newNote.timing = MusicPlayer.instance.currentTime;
+    }
+
+    public void Record()
+    {
+        MusicPlayer.instance.Play(!MVPInputChords.instance.isRecording);
+        if (!MVPInputChords.instance.isRecording)
+        {
+            MVPInputChords.instance.recordingTrack = this;
+            MVPInputChords.instance.isRecording = true;
+        }
+        else
+        {
+            MVPInputChords.instance.isRecording = false;
+        }
     }
 
     /*

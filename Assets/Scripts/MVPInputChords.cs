@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class MVPInputChords : MonoBehaviour
 {
+    public static MVPInputChords instance;
+
     public MVPControls controls;
     public EventSystem eventSystem;
 
@@ -21,8 +23,13 @@ public class MVPInputChords : MonoBehaviour
     public AudioSource[] audioSources;
     private int currentSource;
 
+    public MusicTrack recordingTrack;
+    public bool isRecording;
+
     private void Awake()
     {
+        instance = this;
+
         controls = new MVPControls();
 
         controls.Gameplay.ButtonA.performed += context => Button(0);
@@ -46,32 +53,33 @@ public class MVPInputChords : MonoBehaviour
 
         if (horizontalInput > 0.01f && horizontalInputLastFrame < 0.01f || horizontalInput < -0.01f && horizontalInputLastFrame > -0.01f)
         {
-            notes[chord].PlayNote();
-
-            audioSources[currentSource].Play();
-            currentSource += 1;
-            if (currentSource >= audioSources.Length)
-            {
-                currentSource = 0;
-            }
+            Strum();
         }
         horizontalInputLastFrame = horizontalInput;
 
         
-        /*
+        
         if (Input.GetMouseButtonDown(0))
         {
-            notes[chord].PlayNote();
-
-            audioSources[currentSource].Play();
-            currentSource += 1;
-            if (currentSource >= audioSources.Length)
-            {
-                currentSource = 0;
-            }
+            Strum();
         }
-        */
-        
+    }
+
+    void Strum()
+    {
+        if (isRecording)
+        {
+            recordingTrack.AddNote(chord);
+        }
+
+        notes[chord].PlayNote();
+
+        audioSources[currentSource].Play();
+        currentSource += 1;
+        if (currentSource >= audioSources.Length)
+        {
+            currentSource = 0;
+        }
     }
 
     void Button(int chordInput)

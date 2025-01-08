@@ -20,9 +20,9 @@ public class Metronome : MonoBehaviour
         isEnabled =! isEnabled;
     }
 
-    public void Play()
+    public void Play(bool play)
     {
-        isPlaying =! isPlaying;
+        isPlaying = play;
         Beat();
     }
 

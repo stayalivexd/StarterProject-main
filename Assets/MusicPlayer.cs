@@ -44,6 +44,7 @@ public class MusicPlayer : MonoBehaviour
         else
         {
             currentTime = slider.value * duration;
+            MVPInputChords.instance.isRecording = false;
         }
 
         bpm = float.Parse(bpmInput.text);
@@ -67,9 +68,9 @@ public class MusicPlayer : MonoBehaviour
         */
     }
 
-    public void Play()
+    public void Play(bool play)
     {
-        isPlaying = !isPlaying;
+        isPlaying = play;
         
         /*
         if (isPlaying)
@@ -88,5 +89,6 @@ public class MusicPlayer : MonoBehaviour
     public void SetTime(float time)
     {
         currentTime = time;
+        slider.value = currentTime / duration;
     }
 }
