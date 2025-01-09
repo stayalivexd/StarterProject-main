@@ -7,6 +7,7 @@ TagManager:
   - SamplesInfoPanel
   - Note
   - note
+  - in the bg
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3594519939
     locked: 0
