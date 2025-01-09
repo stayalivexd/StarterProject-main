@@ -13,9 +13,6 @@ public class MusicPlayer : MonoBehaviour
     public float duration;
     float length;
 
-    public List<MusicTrack> tracks;
-    List<float> trackDurations;
-
     private Slider slider;
 
     [SerializeField] private InputField bpmInput;
@@ -56,34 +53,11 @@ public class MusicPlayer : MonoBehaviour
             currentTime = 0;
             slider.value = 0;
         }
-
-        /*
-        trackDurations.Clear();
-        for (int i = 0; i < tracks.Count; i++)
-        {
-            trackDurations.Add(i);
-            trackDurations[i] = tracks[i].duration;
-        }
-        duration = Mathf.Max(trackDurations.ToArray());
-        */
     }
 
     public void Play(bool play)
     {
         isPlaying = play;
-        
-        /*
-        if (isPlaying)
-        {
-            for (int j = 0; j < tracks.Count; j++)
-            {
-                for (int i = 0; i < tracks[j].musicNotes.Count; i++)
-                {
-                    tracks[j].musicNotes[i].PlayNote(tracks[j].noteSounds[tracks[j].musicNotes[i].chord], currentTime + tracks[j].startTime);
-                }
-            }
-        }
-        */
     }
 
     public void SetTime(float time)

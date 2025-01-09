@@ -14,6 +14,8 @@ public class MusicTrack : MonoBehaviour
     public float startTime;
     public GameObject notePrefab;
 
+    [SerializeField] private Transform parent;
+
     //public bool isPlaying;
     //public float currentTime;
 
@@ -60,6 +62,11 @@ public class MusicTrack : MonoBehaviour
         {
             MVPInputChords.instance.isRecording = false;
         }
+    }
+
+    public void DeleteTrack()
+    {
+        MusicTrackManager.instance.RemoveTrack(parent.GetSiblingIndex() - 1);
     }
 
     /*
