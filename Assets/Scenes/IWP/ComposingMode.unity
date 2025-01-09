@@ -20136,6 +20136,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7065558303661671968, guid: 0fa8ccc3eb0262c428f71a38f21bddf6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265123722453812199, guid: 0fa8ccc3eb0262c428f71a38f21bddf6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265123722453812199, guid: 0fa8ccc3eb0262c428f71a38f21bddf6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682965987774860827, guid: 0fa8ccc3eb0262c428f71a38f21bddf6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200617810934635449, guid: 0fa8ccc3eb0262c428f71a38f21bddf6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8589132482149940830, guid: 0fa8ccc3eb0262c428f71a38f21bddf6, type: 3}
       propertyPath: m_Name
       value: Track

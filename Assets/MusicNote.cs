@@ -35,6 +35,7 @@ public class MusicNote : MonoBehaviour
             (uiTrackHeight * -0.5f) + (uiTrackHeight * chord / 3));
         
         audioSource.clip = track.noteSounds[chord];
+        audioSource.volume = track.volume;
     }
 
     public void PlayNote()

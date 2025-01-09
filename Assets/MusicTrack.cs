@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MusicTrack : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class MusicTrack : MonoBehaviour
     Transform[] notes;
     //public float bpm;
     public float duration;
+    public float volume;
 
     public AudioClip[] noteSounds;
 
@@ -15,6 +17,8 @@ public class MusicTrack : MonoBehaviour
     public GameObject notePrefab;
 
     [SerializeField] private Transform parent;
+
+    [SerializeField] private Slider volumeSlider;
 
     //public bool isPlaying;
     //public float currentTime;
@@ -30,6 +34,7 @@ public class MusicTrack : MonoBehaviour
 
         //duration = musicNotes[musicNotes.Count - 1].timing;
         duration = MusicPlayer.instance.duration;
+        volume = volumeSlider.value;
     }
 
     public void UpdateNotes()
