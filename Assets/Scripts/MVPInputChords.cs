@@ -58,11 +58,12 @@ public class MVPInputChords : MonoBehaviour
         horizontalInputLastFrame = horizontalInput;
 
         
-        
+        /*
         if (Input.GetMouseButtonDown(0))
         {
             Strum();
         }
+        */
     }
 
     void Strum()
