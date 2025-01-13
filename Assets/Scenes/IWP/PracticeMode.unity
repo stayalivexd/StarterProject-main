@@ -173,7 +173,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -448,7 +448,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -610,7 +610,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -772,7 +772,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -934,7 +934,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1222,7 +1222,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e84ff5557eaaa45b8a31bdad13ace6a7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 61105dd82d0954f6ba8f937bc59fd611, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1358,7 +1358,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1520,7 +1520,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1682,7 +1682,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1844,7 +1844,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2006,7 +2006,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2168,7 +2168,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2330,7 +2330,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2618,7 +2618,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 61105dd82d0954f6ba8f937bc59fd611, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 339db500f874d42ee894aaa2c351d522, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2754,7 +2754,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2916,7 +2916,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3078,7 +3078,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3346,7 +3346,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3516,8 +3516,8 @@ MonoBehaviour:
   prefab: {fileID: 1394287570210470, guid: 449fbf707e8efbb499710e90b6acc107, type: 3}
   scalePrefab: 0
   useColorGradient: 1
-  MinColor: {r: 0, g: 0.027450982, b: 0.13333334, a: 1}
-  MaxColor: {r: 0.25720897, g: 0.33406907, b: 0.6415094, a: 1}
+  MinColor: {r: 0.13333334, g: 0.026830776, b: 0, a: 1}
+  MaxColor: {r: 0.6431373, g: 0.35639033, b: 0.25882357, a: 1}
   colorCurve:
     serializedVersion: 2
     m_Curve:
@@ -3594,7 +3594,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3756,7 +3756,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3918,7 +3918,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4174,7 +4174,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4336,7 +4336,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4499,8 +4499,8 @@ MonoBehaviour:
   attackDamp: 0.295
   decayDamp: 0.055
   useColorGradient: 1
-  colorMin: {r: 0.014597749, g: 0.0543909, b: 0.13235295, a: 1}
-  colorMax: {r: 0, g: 0.108823456, b: 0.42647058, a: 1}
+  colorMin: {r: 0.13333334, g: 0.015686274, b: 0.07631562, a: 1}
+  colorMax: {r: 0.42745098, g: 0.22230223, b: 0, a: 1}
   colorValueCurve:
     serializedVersion: 2
     m_Curve:
@@ -4592,7 +4592,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4754,7 +4754,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4916,7 +4916,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5078,7 +5078,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5240,7 +5240,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5402,7 +5402,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5564,7 +5564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -576, y: 139}
+  m_AnchoredPosition: {x: -580, y: 242}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700018081
@@ -5716,7 +5716,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5967,7 +5967,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -6129,7 +6129,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -6291,7 +6291,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -6453,7 +6453,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -6615,7 +6615,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -6777,7 +6777,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7065,7 +7065,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9a16ad1ee791f4681a9622bba45f3b17, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2de86a9ead59a449a9ac85e3be6f2a3e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7463,7 +7463,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7625,7 +7625,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7900,7 +7900,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -8028,7 +8028,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1016444076
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8641,7 +8641,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -8803,7 +8803,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -8965,7 +8965,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9127,7 +9127,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9289,7 +9289,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9501,7 +9501,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9663,7 +9663,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9825,7 +9825,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9969,6 +9969,8 @@ Transform:
   - {fileID: 2103235360}
   - {fileID: 1593638539}
   - {fileID: 587492045}
+  - {fileID: 1376434641}
+  - {fileID: 1331957812}
   m_Father: {fileID: 1664898316}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1239637786
@@ -10021,7 +10023,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -10304,7 +10306,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -10466,7 +10468,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -10628,7 +10630,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -10790,7 +10792,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -10952,7 +10954,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -11114,7 +11116,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -11381,7 +11383,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -11543,7 +11545,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -11655,6 +11657,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1331957812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+  m_PrefabInstance: {fileID: 1788554592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1372947855
 GameObject:
   m_ObjectHideFlags: 0
@@ -11749,6 +11756,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!4 &1376434641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+  m_PrefabInstance: {fileID: 1664846848}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1411661213
 GameObject:
   m_ObjectHideFlags: 0
@@ -11799,7 +11811,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -11961,7 +11973,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12123,7 +12135,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12285,7 +12297,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12447,7 +12459,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12655,7 +12667,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12817,7 +12829,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12979,7 +12991,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -13141,7 +13153,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -13303,7 +13315,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -13465,7 +13477,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -13665,8 +13677,8 @@ MonoBehaviour:
   attackDamp: 0.45
   decayDamp: 0.25
   useColorGradient: 1
-  colorMin: {r: 0.069597736, g: 0.59633714, b: 0.6415094, a: 1}
-  colorMax: {r: 0.36334103, g: 0.6698113, b: 0.49068797, a: 1}
+  colorMin: {r: 0.6431373, g: 0.070588246, b: 0.23105444, a: 1}
+  colorMax: {r: 0.5847051, g: 0.67058825, b: 0.3647059, a: 1}
   colorValueCurve:
     serializedVersion: 2
     m_Curve:
@@ -13758,7 +13770,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -13920,7 +13932,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -14082,7 +14094,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -14210,6 +14222,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a265001d589614810b4e14925c91b05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1664846848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1237633410}
+    m_Modifications:
+    - target: {fileID: 1733289766624924, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_Name
+      value: Spectrum Example
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1569316
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.23965915
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5977273
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 151.90572
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -143.79546
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 113.28094
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5001693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5001693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49983063
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.49983063
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMax.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMax.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
 --- !u!1 &1664898312
 GameObject:
   m_ObjectHideFlags: 0
@@ -14505,7 +14594,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -14735,7 +14824,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -14897,7 +14986,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -15009,6 +15098,99 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1788554592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1237633410}
+    m_Modifications:
+    - target: {fileID: 1733289766624924, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_Name
+      value: Spectrum Example (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1569316
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -0.33552274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5977273
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 369.03687
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -143.79546
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 111.36368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5001693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5001693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49983063
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.49983063
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386625243646400, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.961
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMax.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMax.g
+      value: 0.7534727
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMax.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMin.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMin.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699901572180746, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
+      propertyPath: colorMin.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ca1679f59738414ba176b2992042c80, type: 3}
 --- !u!1 &1789594617
 GameObject:
   m_ObjectHideFlags: 0
@@ -15059,7 +15241,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -15221,7 +15403,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -15484,7 +15666,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -15646,7 +15828,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -15808,7 +15990,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -15970,7 +16152,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -16132,7 +16314,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -16294,7 +16476,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -16472,7 +16654,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -16634,7 +16816,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -16796,7 +16978,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -16958,7 +17140,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -17120,7 +17302,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -17282,7 +17464,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -17444,7 +17626,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -17606,7 +17788,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -17768,7 +17950,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -18030,7 +18212,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -18130,8 +18312,8 @@ MonoBehaviour:
   attackDamp: 0.45
   decayDamp: 0.25
   useColorGradient: 1
-  colorMin: {r: 0.009731843, g: 0.15553042, b: 0.44117647, a: 1}
-  colorMax: {r: 0.44636676, g: 0.9485294, b: 0.8861919, a: 1}
+  colorMin: {r: 0.4392157, g: 0.21812883, b: 0.007843134, a: 1}
+  colorMax: {r: 0.9490196, g: 0.855438, b: 0.44705886, a: 1}
   colorValueCurve:
     serializedVersion: 2
     m_Curve:
@@ -18223,7 +18405,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 3
   m_AngularDrag: 0
-  m_GravityScale: 7
+  m_GravityScale: 9.13
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
