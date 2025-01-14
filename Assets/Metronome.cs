@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class Metronome : MonoBehaviour
 {
-    [SerializeField] private float bpm;
-    private bool isPlaying;
+    public static Metronome instance;
+
+    public bool countdownMode;
     private bool isEnabled;
 
     private AudioSource audioSource;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {
@@ -22,16 +28,15 @@ public class Metronome : MonoBehaviour
 
     public void Play(bool play)
     {
-        isPlaying = play;
         Beat();
     }
 
     void Beat()
     {
-        if (isPlaying && isEnabled)
+        if (MusicPlayer.instance.isPlaying && isEnabled || countdownMode)
         {
             audioSource.Play();
-            Invoke("Beat", 60 / bpm);
+            Invoke("Beat", 60 / MusicPlayer.instance.bpm);
         }
     }
 }
