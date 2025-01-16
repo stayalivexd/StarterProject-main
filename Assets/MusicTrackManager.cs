@@ -41,9 +41,9 @@ public class MusicTrackManager : MonoBehaviour
     {
         for (int i = 0; i < tracks.Count; i++)
         {
-            tracks[i].anchoredPosition = new Vector3(0, -80 * i, 0);
+            tracks[i].anchoredPosition = new Vector3(-55, -220 * i, 0);
         }
-        newTrackButton.anchoredPosition = new Vector3(0, -80 * tracks.Count, 0);
-        rectTransform.anchoredPosition = new Vector3(0, 100 + (80 * (tracks.Count - 1) * scrollbar.value), 0);
+        newTrackButton.anchoredPosition = new Vector3(225, 100 + -220 * tracks.Count, 0);
+        rectTransform.anchoredPosition = new Vector3(-55, 100 + (220 * (tracks.Count - 1) * scrollbar.value), 0);
     }
 }

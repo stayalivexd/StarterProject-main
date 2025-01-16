@@ -57,9 +57,19 @@ public class MusicTrack : MonoBehaviour
 
     public void Record()
     {
-        Metronome.instance.countdownMode = true;
-        Invoke("StartRecording", 240 / MusicPlayer.instance.bpm);
-        Metronome.instance.Invoke("Beat", 60 / MusicPlayer.instance.bpm);
+        if (!Metronome.instance.countdownMode && !MVPInputChords.instance.isRecording)
+        {
+            Metronome.instance.countdownMode = true;
+            Metronome.instance.Play(true);
+            Invoke("StartRecording", 240 / MusicPlayer.instance.bpm);
+            Metronome.instance.Invoke("Beat", 60 / MusicPlayer.instance.bpm);
+        }
+        else if (MVPInputChords.instance.isRecording)
+        {
+            Metronome.instance.countdownMode = false;
+            MusicPlayer.instance.Play(false);
+            MVPInputChords.instance.isRecording = false;
+        }
     }
 
     void StartRecording()
