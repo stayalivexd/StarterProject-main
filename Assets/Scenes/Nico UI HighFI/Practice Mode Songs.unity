@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028356, g: 0.2257137, b: 0.3069222, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -517,8 +517,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 98, y: 0}
-  m_SizeDelta: {x: 400.8607, y: 113.4893}
+  m_AnchoredPosition: {x: 99, y: 9.7447}
+  m_SizeDelta: {x: 447.4325, y: 113.4893}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278860481
 MonoBehaviour:
@@ -540,10 +540,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Song Name
+  m_text: Perfect
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64339a3e2576e464db5637f8d4a6bbf8, type: 2}
-  m_sharedMaterial: {fileID: 867782980272824456, guid: 64339a3e2576e464db5637f8d4a6bbf8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
+  m_sharedMaterial: {fileID: -1978405147653511105, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -567,14 +567,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 128
-  m_fontSizeBase: 128
+  m_fontSize: 130.47
+  m_fontSizeBase: 130.47
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 2.9672241}
+  m_margin: {x: 0, y: 0, z: -1.2503052, w: 2.9672241}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1072,8 +1072,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Song Library
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
-  m_sharedMaterial: {fileID: 565040537047536481, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f0b8b50c3fb0f438cbd5b242a5d21196, type: 2}
+  m_sharedMaterial: {fileID: 713491126864409227, guid: f0b8b50c3fb0f438cbd5b242a5d21196, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1639,10 +1639,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Artist name
+  m_text: Ed Sheeran
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
-  m_sharedMaterial: {fileID: 565040537047536481, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
+  m_sharedMaterial: {fileID: -1978405147653511105, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1733,7 +1733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1141844714
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2410,7 +2410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1753874650
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2530,7 +2530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1799989212
 RectTransform:
   m_ObjectHideFlags: 0
