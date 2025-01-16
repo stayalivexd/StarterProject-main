@@ -1162,10 +1162,10 @@ MonoBehaviour:
   duration: 0
   volume: 0
   noteSounds:
-  - {fileID: 8300000, guid: b42bfe0761d5b4e54b6035b15a786094, type: 3}
-  - {fileID: 8300000, guid: fcfcf31b4092649d7807dea95615fb4a, type: 3}
-  - {fileID: 8300000, guid: 24c6b352f88954977877962e3e7dacdb, type: 3}
-  - {fileID: 8300000, guid: 61105dd82d0954f6ba8f937bc59fd611, type: 3}
+  - {fileID: 8300000, guid: 51efe45136ad474418116a8b217691ab, type: 3}
+  - {fileID: 8300000, guid: d2173641a4ba45849bba54ae3f30dde8, type: 3}
+  - {fileID: 8300000, guid: 8d5d139a341b9684ba42475c6d77a7e4, type: 3}
+  - {fileID: 8300000, guid: d7ef5db2d156092488e13aa0f67a3764, type: 3}
   startTime: 0
   notePrefab: {fileID: 5483944237261207748, guid: f49f76dcd1e31ee429c2401ca394592d, type: 3}
   parent: {fileID: 4288549228682510816}

@@ -8728,10 +8728,10 @@ MonoBehaviour:
   - {fileID: 682920221}
   - {fileID: 1649684910}
   audioClips:
-  - {fileID: 8300000, guid: ba1c2317aafb2466fac7b3e9b32bdc6f, type: 3}
-  - {fileID: 8300000, guid: e84ff5557eaaa45b8a31bdad13ace6a7, type: 3}
-  - {fileID: 8300000, guid: 2f77a101b1c7b4e05a6252b935177f24, type: 3}
-  - {fileID: 8300000, guid: e900f185681a742c0a8f6c0a3915c870, type: 3}
+  - {fileID: 8300000, guid: 51efe45136ad474418116a8b217691ab, type: 3}
+  - {fileID: 8300000, guid: d2173641a4ba45849bba54ae3f30dde8, type: 3}
+  - {fileID: 8300000, guid: 8d5d139a341b9684ba42475c6d77a7e4, type: 3}
+  - {fileID: 8300000, guid: d7ef5db2d156092488e13aa0f67a3764, type: 3}
   audioSources:
   - {fileID: 1043105192}
   - {fileID: 1043105191}
@@ -8764,7 +8764,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba1c2317aafb2466fac7b3e9b32bdc6f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 51efe45136ad474418116a8b217691ab, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8860,7 +8860,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba1c2317aafb2466fac7b3e9b32bdc6f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 51efe45136ad474418116a8b217691ab, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8956,7 +8956,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba1c2317aafb2466fac7b3e9b32bdc6f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 51efe45136ad474418116a8b217691ab, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9052,7 +9052,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ba1c2317aafb2466fac7b3e9b32bdc6f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 51efe45136ad474418116a8b217691ab, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
