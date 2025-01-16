@@ -5,8 +5,9 @@ using TMPro;
 
 public class activator : MonoBehaviour
 {
+    private KeyCode key;
 
-    public KeyCode key;
+    public int chord;
    
     bool active = false;
     GameObject note;
@@ -20,7 +21,7 @@ public class activator : MonoBehaviour
     {
         
         
-        if (Input.GetKeyDown(key) && active)
+        if (MVPInputChords.instance.isStrumming && MVPInputChords.instance.chord == chord && active)
         {
             Debug.Log("butt");
             Destroy(gameObject);

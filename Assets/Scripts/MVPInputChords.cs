@@ -15,7 +15,7 @@ public class MVPInputChords : MonoBehaviour
 
     [SerializeField] private float horizontalInput;
     private float horizontalInputLastFrame;
-    private int chord;
+    public int chord;
 
     public extOSC.Examples.SendNoteOnOver[] notes;
 
@@ -25,6 +25,8 @@ public class MVPInputChords : MonoBehaviour
 
     public MusicTrack recordingTrack;
     public bool isRecording;
+
+    public bool isStrumming;
 
     private void Awake()
     {
@@ -56,18 +58,13 @@ public class MVPInputChords : MonoBehaviour
             Strum();
         }
         horizontalInputLastFrame = horizontalInput;
-
         
-        /*
-        if (Input.GetMouseButtonDown(0))
-        {
-            Strum();
-        }
-        */
     }
 
     void Strum()
     {
+        isStrumming = true;
+        Invoke("NoStrum", 0.1f);
         if (isRecording)
         {
             recordingTrack.AddNote(chord);
@@ -81,6 +78,11 @@ public class MVPInputChords : MonoBehaviour
         {
             currentSource = 0;
         }
+    }
+
+    void NoStrum()
+    {
+        isStrumming = false;
     }
 
     void Button(int chordInput)

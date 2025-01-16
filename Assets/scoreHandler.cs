@@ -8,9 +8,14 @@ public class scoreHandler : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip note;
-    public KeyCode key;
+    
     bool isTriggered = false;
     public string listenToTag = "Note";
+
+    public int chord;
+
+    public AudioSource[] audioSources;
+    private int currentSource;
 
     // Start is called before the first frame update
     void Start()
@@ -27,11 +32,16 @@ public class scoreHandler : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(key) && isTriggered)
+        if (MVPInputChords.instance.isStrumming && MVPInputChords.instance.chord == chord && isTriggered)
         {
             ScoreTracker.instance.score++;
             isTriggered = false;
-            audioSource.Play(); 
+            audioSources[currentSource].Play();
+            currentSource += 1;
+            if (currentSource >= audioSources.Length)
+            {
+                currentSource = 0;
+            }
 
         }
 
