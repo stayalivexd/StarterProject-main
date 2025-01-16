@@ -517,8 +517,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 98, y: 0}
-  m_SizeDelta: {x: 400.8607, y: 113.4893}
+  m_AnchoredPosition: {x: 99, y: 9.7447}
+  m_SizeDelta: {x: 447.4325, y: 113.4893}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278860481
 MonoBehaviour:
@@ -542,8 +542,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Perfect
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 64339a3e2576e464db5637f8d4a6bbf8, type: 2}
-  m_sharedMaterial: {fileID: 867782980272824456, guid: 64339a3e2576e464db5637f8d4a6bbf8, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
+  m_sharedMaterial: {fileID: -1978405147653511105, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1072,8 +1072,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Song Library
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
-  m_sharedMaterial: {fileID: 565040537047536481, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f0b8b50c3fb0f438cbd5b242a5d21196, type: 2}
+  m_sharedMaterial: {fileID: 713491126864409227, guid: f0b8b50c3fb0f438cbd5b242a5d21196, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1641,8 +1641,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ed Sheeran
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
-  m_sharedMaterial: {fileID: 565040537047536481, guid: 35465ca93b77d4d888537c406821a94d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
+  m_sharedMaterial: {fileID: -1978405147653511105, guid: 212cd4bfbe1ff44a095cc4a6d404ea5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
