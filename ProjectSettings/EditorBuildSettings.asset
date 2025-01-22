@@ -5,27 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/summer24 randy scenes/4 notes C.unity
     guid: 2ea383c7dbd861f4dbdee68d105d41a7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/summer24 randy scenes/8 notes C.unity
     guid: 6372dc4dc3a57403ab8be00dca5bd1f7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/summer24 randy scenes/16 notes C.unity
     guid: c241482cf2c0c8e4b81ecdab7f48f3dc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Movement SDK.unity
     guid: 585096f6d8832f7439d089281ed4a920
+  - enabled: 1
+    path: Assets/Scenes/Nico UI HighFI/Main Menu.unity
+    guid: 3db0732cd72e44d21b8a309b798d3f1f
   - enabled: 1
     path: Assets/Scenes/IWP/MVP.unity
     guid: 217281c809052c14882401611e15b973
   - enabled: 1
     path: Assets/Scenes/IWP/PracticeMode.unity
     guid: 704f2aaa3707e6946898310aac11fea5
-  - enabled: 1
-    path: Assets/Scenes/Nico UI HighFI/Main Menu.unity
-    guid: 3db0732cd72e44d21b8a309b798d3f1f
   - enabled: 1
     path: Assets/Scenes/Nico UI HighFI/Practice Mode Instruments.unity
     guid: 603e2b49dbe2145f9a33867e735d465e

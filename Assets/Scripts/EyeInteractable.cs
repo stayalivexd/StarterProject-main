@@ -8,6 +8,8 @@ public class EyeInteractable : MonoBehaviour
 {
     public bool IsHovered { get; set; }
     public bool OnMouseEnterActive = false;
+    public bool JoyStickActive = false;
+    //public float JoyStickSpeed = 10.0f;
     public bool UseUnityAudioClip = false;
 
     [SerializeField]
@@ -68,14 +70,32 @@ public class EyeInteractable : MonoBehaviour
     private void OnMouseEnter()
     {
         if (!OnMouseEnterActive) return;
+        if (JoyStickActive) return;
 
         OscSend.PlayNote();
+
         if (meshRenderer.material != OnHoverActiveMaterial)
         {
             audioSource.PlayOneShot(hoverSound);
 
         }
         meshRenderer.material = OnHoverActiveMaterial;
+    }
+
+    private void OnMouseOver()
+    {
+        if (!JoyStickActive) return;
+
+        float translation = Input.GetAxis("Vertical");
+
+        if (translation > 0)
+        {
+            audioSource.PlayOneShot(hoverSound);
+        }
+        else
+        {
+            audioSource.Stop();
+        }
     }
 
     /// <summary>

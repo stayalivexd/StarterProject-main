@@ -219,6 +219,14 @@ PrefabInstance:
       propertyPath: hoverSound
       value: 
       objectReference: {fileID: 8300000, guid: 2de86a9ead59a449a9ac85e3be6f2a3e, type: 3}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: JoyStickActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: OnMouseEnterActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5589391281593336645, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
       propertyPath: m_text
       value: D4
@@ -284,7 +292,7 @@ MonoBehaviour:
   _localReceiver: {fileID: 0}
   _localHost: 192.168.178.11
   _localPort: 7000
-  _remoteHost: 172.20.10.7
+  _remoteHost: 127.0.0.1
   _remotePort: 7000
   _useBundle: 0
 --- !u!114 &762976104
@@ -429,6 +437,14 @@ PrefabInstance:
       propertyPath: hoverSound
       value: 
       objectReference: {fileID: 8300000, guid: 27ef97987382a4965adda4a465f807ce, type: 3}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: JoyStickActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: OnMouseEnterActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5589391281593336645, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
       propertyPath: m_text
       value: C5
@@ -487,7 +503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnMouseEnterActive: 1
-  UseUnityAudioClip: 1
+  UseUnityAudioClip: 0
+  JoyStickActive: 1
 --- !u!1001 &1243623538
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -584,6 +601,14 @@ PrefabInstance:
       propertyPath: hoverSound
       value: 
       objectReference: {fileID: 8300000, guid: e84ff5557eaaa45b8a31bdad13ace6a7, type: 3}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: JoyStickActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: OnMouseEnterActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5589391281593336645, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
       propertyPath: m_text
       value: A4
@@ -773,6 +798,14 @@ PrefabInstance:
       propertyPath: hoverSound
       value: 
       objectReference: {fileID: 8300000, guid: ba1c2317aafb2466fac7b3e9b32bdc6f, type: 3}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: JoyStickActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865349561967349355, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
+      propertyPath: OnMouseEnterActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5589391281593336645, guid: 54b860490c4d6494e94244e1b03b659a, type: 3}
       propertyPath: m_text
       value: F4

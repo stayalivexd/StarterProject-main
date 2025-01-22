@@ -7,6 +7,7 @@ public class MidiSendParentSetParameters : MonoBehaviour
 
     public bool OnMouseEnterActive = false;
     public bool UseUnityAudioClip = false;
+    public bool JoyStickActive = false;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +45,7 @@ public class MidiSendParentSetParameters : MonoBehaviour
         {
             item.OnMouseEnterActive = OnMouseEnterActive;
             item.UseUnityAudioClip = UseUnityAudioClip;
+            item.JoyStickActive = JoyStickActive;
         }
 
         //set parameters

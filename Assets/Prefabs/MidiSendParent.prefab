@@ -385,6 +385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnMouseEnterActive: 0
+  JoyStickActive: 0
   UseUnityAudioClip: 0
   OnObjectHover:
     m_PersistentCalls:
